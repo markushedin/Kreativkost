@@ -1,0 +1,40 @@
+@import 'variables';
+.hero-container {
+    background-color: #CAFBCF;
+    .hero-section {
+        max-width: $max-width;
+        margin: auto;
+        position: relative;
+        color: $neutrals-dark;
+        margin-bottom: $x-small-padding;
+        background-color: #CAFBCF;
+        height: 520px;
+        @media (min-width: $desktop-bp) {
+            height:640px;
+        }
+        .hero-img {
+            max-width: 440px;
+            width: 100%;
+            position: absolute;
+            bottom: 10px;
+            right: 0;
+            @media (min-width: $desktop-bp) {
+                max-width: 650px;
+                bottom: 0;
+            }
+        }
+        .content{
+            position: absolute;
+            top: 40px;
+            @media (min-width: $desktop-bp) {
+                top: 100px;
+            }
+            z-index: 3;
+            padding: $x-small-padding;
+            max-width: $max-width;
+            @media (min-width: 1220px) {
+                padding: 0;
+            }
+        }
+    }
+}

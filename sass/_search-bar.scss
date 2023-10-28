@@ -1,0 +1,42 @@
+@import 'variables';
+#search{
+    max-width: 696px;
+    margin: auto;
+    #search-bar{
+        position: relative;
+        width: 100%;
+        #header-search{
+            padding: $x-small-padding $x-small-padding $x-small-padding $x-small-padding;
+            @include border (border);
+            border-radius: $bar-radius;
+            width: 100%;
+            font-family: $primary-font;
+            font-size: $p-text;
+            &.focus-border{ 
+                @include border (border);
+                border-radius: $bar-radius;
+                outline: none;
+                box-shadow: 0px 0px 20px $secondary-color; //ändra
+            }
+        }
+        #btn-search{ //the förstoringsglas ikon
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: $x-small-padding;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .m1b {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: $nano-small-padding;
+        &::-webkit-scrollbar {
+            width: 0px;
+            background: transparent; // makes the scrollbar transparent
+        }
+    }
+}

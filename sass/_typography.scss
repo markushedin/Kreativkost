@@ -1,0 +1,90 @@
+@import 'variables';
+//general stylings for typography
+.center {
+    text-align: center;
+}
+.headline { //h1
+    font-size: $h1m;
+    font-weight: 700;
+    margin-bottom: $x-small-padding;
+    color: $neutrals-dark;
+    line-height: 120%;
+    max-width: 350px;
+    text-align: center;
+    @media (min-width: $tablet-bp){
+        text-align: left;
+    }
+    @media (min-width: $desktop-bp){
+        font-size: $h1d;
+        max-width: 650px;
+    }
+    &.about-us-h1 {
+        max-width: 100%;
+        text-align: left;
+        margin-top: $x-small-padding;
+    }
+    &.mb {
+        margin-bottom: 2rem;
+        @media (min-width: $desktop-bp) {
+            margin-bottom: 11rem;
+        }
+    }
+}
+.mid-headline { //h2
+    font-size: $h2m;
+    font-weight: 500;
+    @media (min-width: $desktop-bp){
+        font-size: $h2d;
+    }
+    &.mb {
+        margin-bottom: $x-small-padding;
+    }
+    &.ml {
+        margin-left: $x-small-padding;
+    }
+}
+.small-headline { //h3
+    font-size: $h3m;
+    font-weight: 400;
+    @media (min-width: $desktop-bp){
+        font-size: $h3d;
+        font-weight: 500;
+    }
+    &.mb {
+        margin-bottom: $x-small-padding;
+    }
+}
+.card-headline {
+    font-size: $h4m;
+    @media (min-width: $desktop-bp) {
+        font-size: $h4d;
+    }
+    &.mb {
+        margin-bottom: $x-small-padding;
+
+    }
+}
+.bad-script { //h5
+    font-family: $script-font;
+    font-size: $script-size;
+    font-weight: 400;
+    @media (min-width: $desktop-bp){
+        font-size: $script-size-desktop;
+    }
+}
+.paragraph-text { //Default paragraph text
+    font-size: 1.1rem;
+    line-height: 1.45;
+    margin-bottom: $x-small-padding;
+    max-width: 590px;
+    &.center {
+        text-align: center;
+    }
+    &.mb {
+        margin-bottom: $small-padding;
+    }
+}
+.logo{ //logo text, will be replaced with an actual logo
+    font-size: 2rem;
+    font-weight: 700;
+}

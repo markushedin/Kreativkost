@@ -1,0 +1,122 @@
+@import 'variables';
+
+.img-pa {
+    position: absolute;
+    z-index: 10;
+    top: 590px;
+    width: 80px;
+    right: 0;
+    @media (min-width: $tablet-bp) {
+        display: none;
+    }
+}
+.illustration-container {
+    max-width: $max-width;
+    height: 100%;
+    margin-top: $nano-small-padding;
+    margin-bottom: $small-padding;
+    @media (min-width: $desktop-bp) {
+        margin-bottom: $medium-padding;
+    }
+    .img-pa2 {
+        width: 100%;
+        height: auto;
+    }
+}
+.recept {
+    max-width: $max-width;
+    margin: auto;
+    figure {
+        position: relative;
+        margin-bottom: 13rem;
+        max-width: $max-width;
+        height: 100%;
+        @media (min-width: $tablet-bp) {
+            margin-bottom: 8rem;
+        }
+        img {
+            position: relative;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 364px;
+            object-fit: cover;
+            @media (min-width: $desktop-bp) {
+                height: 480px;
+            }
+        }
+    }
+    header {
+        position: absolute;
+        top: 380px;
+        background-color: $neutrals-light;
+        @include border (border);
+        width: 80%;
+        @media (min-width: $desktop-bp) {
+            max-width: 816px;
+            top: 500px;
+        }
+        //ändra? förbättra? hur???
+        right: 0; 
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        @include flexbox (column, center, center, nowrap);
+        .infoContainer {
+            display: flex;
+            gap: $small-padding;
+            padding: $x-small-padding;
+            max-width: 300px;
+            .iconContainer, .iconContainer2 {
+                @include flexbox-5(column, center);
+            }
+        }
+        .icon {
+            display: inline-block;
+            background-image: url("../img/timer.png");
+            background-size: cover;
+            width: 28px;
+            height: 28px;
+        }
+        .icon2 {
+            display: inline-block;
+            background-image: url("../img/portions.png");
+            background-size: cover;
+            width: 28px;
+            height: 28px;
+        }
+        h1 {
+            padding: $x-small-padding;
+            text-align: center;
+        }
+    }
+    .steps-container {
+        padding: $x-small-padding;
+        @include border (border);
+        width: 90%;
+        margin: auto;
+        margin-bottom: $small-padding;
+        background-color: $neutrals-light;
+        @media (min-width: $desktop-bp) {
+            border: 0;
+            margin: 0;
+        }
+        @media (min-width: 1220px) {
+            padding: $x-small-padding 0;//t, r, b, l
+        }
+        &.hidden-section {
+            display: none;
+        }
+        h2 {
+            background-color: $neutrals-light;
+            font-size: $h3m;
+            margin-bottom: $nano-small-padding;
+            color: $cta;
+        }
+        ol, ul {
+            li{
+                list-style: none;
+            }
+        }
+    }
+}

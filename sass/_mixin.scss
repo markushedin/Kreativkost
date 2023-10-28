@@ -1,0 +1,34 @@
+//Flexbox mixin
+@mixin flexbox($direction, $justify-content, $align-items, $wrap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-wrap: $wrap;
+}
+@mixin flexbox-2($justify-content, $align-items) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+@mixin flexbox-3($justify-content, $flex-wrap){
+    display: flex;
+    justify-content: $justify-content;
+    flex-wrap: $flex-wrap;
+}
+@mixin flexbox-4($wrap, $justify-content, $align-items){
+    display: flex;
+    flex-wrap: $wrap;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+@mixin flexbox-5($direction, $align-items){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align-items;
+}
+//border flexbox
+@mixin border ($border) {
+    border: 2px solid $neutrals-dark;
+    border-radius: $primary-border-radius;
+}

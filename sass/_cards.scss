@@ -1,0 +1,112 @@
+@import 'variables';
+.recipes-cards{
+    margin-bottom: $medium-padding;
+    .cards-flexbox {
+        @media (min-width: $tablet-bp) {
+            @include flexbox-3(space-between, wrap);
+        }
+        @media (min-width: $desktop-bp) {
+            @include flexbox-3(flex-start, wrap);
+            gap: 1.2rem;
+        }
+    }
+    .card{
+        position: relative;
+        margin-bottom: $x-small-padding;
+        border-radius: $primary-border-radius;
+        overflow: hidden;
+        max-width: 579px;
+        height: 340px;
+        @include border (border);
+        @media (min-width: $tablet-bp) {
+            max-width: 49%;
+        }
+        @media (min-width: $desktop-bp) {
+            max-width: 32%;
+        }
+        .gradient{
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            height: 95px;
+            background-color: $neutrals-light;
+        }
+        .card-bg{
+            background-color: hotpink; //lmao ändra snälla
+            border-radius: $primary-border-radius;
+        }
+        .card-text{
+            position: absolute;
+            bottom: 0;
+            padding: $x-small-padding;
+            color: $neutrals-dark;
+            z-index: 1;
+            p, h3 {
+                margin-bottom: $x-small-padding;
+            }
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% -40px;
+        }
+    }
+}
+//About us cards
+.cards-container {
+    @media (min-width: $desktop-bp){
+        @include flexbox-4(wrap, space-around, center);
+        row-gap: $medium-padding;
+    }
+    .about-us-card {
+        position: relative;
+        max-width: 400px;
+        figure {
+            max-width: 243px;
+            position: relative;
+            @media (min-width: $tablet-bp){
+                max-width: 300px;
+            }
+            @media (min-width: $desktop-bp){
+                max-width: 380px;
+            }
+            .about-us-img {
+                width: 100%;
+                border-radius: 10px;
+                border: 2px solid $neutrals-dark;
+            }
+        }
+        .bad-script {
+            position: absolute;
+            top: 10px;
+            left: 160px;
+            &.aim {
+                left: 100px;
+                @media (min-width: $desktop-bp){
+                    top: -50px;
+                    transform: rotate(5deg);
+                }
+            }
+            &.markus {
+                @media (min-width: $desktop-bp){
+                    left: -70px;
+                    top: 200px;
+                    transform: rotate(-10deg);
+                }
+            }
+            &.jennie {
+                @media (min-width: $desktop-bp){
+                    transform: rotate(10deg);
+                }
+            }
+            @media (min-width: $tablet-bp){
+                left: 200px;
+            }
+            @media (min-width: $desktop-bp){
+                left: 300px;
+            }
+        }
+    }
+}

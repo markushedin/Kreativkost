@@ -1,0 +1,27 @@
+@import 'variables';
+
+.btn{
+    display: inline-block;
+    background-color: $cta;
+    text-decoration: none;
+    color: $neutrals-light;
+    font-weight: 500;
+    padding: 0.7rem $small-padding;
+    border-radius: $btn-radius;
+    border: none;
+    transition: 0.2s;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    &:hover {
+        background-color: $cta; //change plox
+    }
+}
+.btn-text {
+    font-size: 1rem;
+    font-family: $primary-font;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    color: $cta;
+}

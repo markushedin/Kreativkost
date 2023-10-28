@@ -1,0 +1,31 @@
+@import 'variables';
+
+#categorys{
+    margin-top: $x-small-padding;
+    .chip{
+        + label{
+            display: inline-block;
+            @include border (border);
+            border-radius: $btn-radius;
+            padding: $nano-small-padding $x-small-padding; 
+            color: $neutrals-dark;
+            font-size: 1rem;
+            font-weight: 500;
+            user-select: none;
+            cursor: pointer;
+        }
+       
+        
+        &[type="checkbox"]{
+            display: none;
+            &:checked {
+                + label {
+                    background-color: $cta;
+                    color: $neutrals-light;
+                }
+            }
+        }
+    }
+    
+ 
+}

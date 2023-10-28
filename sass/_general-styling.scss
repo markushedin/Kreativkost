@@ -1,0 +1,67 @@
+@import 'variables', 'mixin';
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $primary-font;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: $neutrals-light;
+}
+//General styling for all html pages
+.container{
+    max-width: $max-width;
+    margin: auto;
+    padding: $x-small-padding;
+    @media (min-width: 1220px) {
+        //padding: $x-small-padding 0;//t, r, b, l
+    }
+    &.no-padding {
+        padding: 0;
+    }
+}
+.img-container { //h&w on the img container
+    max-width: 720px;
+    height: 100%;
+    img{//w: 100% and h: auto
+        width: 100%;
+        display: block;
+        &.mb {
+            margin-bottom: $x-small-padding;
+        }
+    }
+}
+.text-section { //?????
+    padding: $x-small-padding;
+    margin-top: $medium-padding;
+}
+.quote{
+    background-color: $primary-color;
+    @include flexbox(row,center,center,nowrap);
+    padding: 5rem 0;
+    margin-bottom: $small-padding;
+    h3{
+        color: $neutrals-dark;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .content{
+        text-align: center;
+    }
+}
+//To hide unwanted things
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.hidden {
+    display: none;
+}

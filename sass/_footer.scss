@@ -1,0 +1,75 @@
+@import 'mixin', 'variables';
+
+.main-footer{
+    background-color: $neutrals-dark;
+    padding: $small-padding $x-small-padding; //t, r, b, l
+    color: $neutrals-light;
+    &.position {
+        position: relative;
+    }
+    .footer-container {
+        max-width: $max-width;
+        margin: auto;
+        .footer-content {
+            @media (min-width: $desktop-bp) {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid $neutrals-light;
+                margin-bottom: $small-padding;
+            }
+            .p-box {
+                @media (min-width: $desktop-bp) {
+                    text-align: center;
+                }
+                .footer-text{
+                    font-size: $footer-text;
+                }
+            }
+            figure {
+                max-width: 120px;
+                height: 43px;
+                margin-bottom: 1.75rem;
+                @media (min-width: $desktop-bp) {
+                    max-width: 140px;
+                }
+                .footer-logotype {
+                    width: 100%;
+                    height: 100%;
+                }
+            }  
+            .social-media-container {
+                border-bottom: 1px solid $neutrals-light;
+                @media (min-width: $desktop-bp) {
+                    border-bottom: 0;
+                }
+                a {
+                    .fa {
+                        margin-bottom: 1.75rem;
+                        font-size: 3rem;
+                        color: $neutrals-light;
+                        @media (min-width: $desktop-bp) {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-text-right {
+            @media (min-width: $desktop-bp) {
+                text-align: end;
+            }
+        }
+    }
+}
+.mb {
+    margin-bottom: 1.75rem;
+    @media (min-width: $desktop-bp) {
+        margin-bottom: 0;
+    }
+}
+.smb {
+    margin-bottom: $x-small-padding;
+    @media (min-width: $desktop-bp) {
+        margin-bottom: $nano-small-padding;
+    }
+}

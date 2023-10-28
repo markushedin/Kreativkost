@@ -1,0 +1,31 @@
+To do
+- Hover effekt på korten
+- Rätt typsnitt och storlek ska in i variabler
+- Lägg till container i js
+
+----
+
+FAQ
+1. Hur vill du att man gör med blogg-sidan?
+Svar: Upp till oss vad vi vill göra med den! FÅr innehålla vad som helst, exempelvis kontakt, om oss, sparade recept etcetc
+2. Hur lägga till alt på js-bilderna?
+Svar: Via json och js
+3. Input på meta-description?
+Svar: Kort, beskrivande.
+4. Hur får jag LH att sluta klaga på img width och height? Testat allt :/
+Svar: height fixed på card, height 100% på img
+
+Tre uppsättningar på bilderna: exempelvis 400, 800 och 1200
+
+5. Hur får jag in alla olika storlekar av bilder i json?
+
+----
+
+Detta har jag optimerat:
+- Bilderna har jag krymt till 1200px i bredd och sparat som webp (då det rekommenderas för webben)
+- Semantiska taggar i HTML
+- "Städat" och gjort JS koden mer läs- och användbar
+- Städat upp i sass-filen: delat upp koden i olika komponenter/sektioner, satt in variabler etc.
+- Meta-description i headtaggen
+- Alt taggar på bilder (vissa behöver fortfarande)
+- Tydligare text på knapparna

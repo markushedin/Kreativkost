@@ -1,0 +1,632 @@
+[
+    {
+        "id": 1,
+        "name": "Fransk linssoppa",
+        "category": ["Soppa"], 
+        "time": "45 minuter",
+        "portions": "6 portioner",
+        "ingredients": [
+            {
+                "quantity": "3 dl",
+                "name": "gröna linser"
+            },
+            {
+                "quantity": "1 st",
+                "name": "gul eller rödlök"
+            },
+            {
+                "quantity": "2-3 st",
+                "name": "selleristjälkar"
+            },
+            {
+                "quantity": "2-3 st",
+                "name": "morötter"
+            },
+            {
+                "quantity": "2 st",
+                "name": "vitlöksklyftor"
+            },
+            {
+                "quantity": "400 g ",
+                "name": "krossade tomater"
+            },
+            {
+                "quantity": "1 tsk",
+                "name": "torkad timjan"
+            },
+            {
+                "quantity": "0,5 tsk",
+                "name": "rökt paprika"
+            },
+            {
+                "quantity": "2 st",
+                "name": "grönsaksbuljongtärningar"
+            },
+            {
+                "quantity": "2 st",
+                "name": "lagerblad"
+            },
+            {
+                "quantity": "1 liter",
+                "name": "vatten"
+            },
+            {
+                "quantity": "",
+                "name": "Salt"
+            },
+            {
+                "quantity": "",
+                "name": "Peppar"
+            },
+            {
+                "quantity": "",
+                "name": "Olivolja till stekning"
+            },
+            {
+                "quantity": "",
+                "name": "Citron att pressa över vid servering"
+            }
+        ],
+        "steps": [
+            "Hacka lök, morot och selleri i små bitar. FInhacka vitlöken",
+            "Hetta upp olja och stek selleri, morot och lök under omrörning i 2-3 min. Vänd i vitlök, rökt paprika, timjan och stek lite till.",
+            "Vänd i övriga ingredienser, koka upp soppan, sänk värmen till medelvärme och låt soppan koka under lock tills linserna mjuknar, ca 20 min.",
+            "Pressa över citron vid servering, njut!"
+        ],
+        "html": "fransk-soppa.php",
+        "imageURL": "../img/fransk-linssoppa-1200x750.webp",
+        "altText": "Linssoppa i en skål med persiljablad på toppen",
+        "isFavorite": false,
+        "isTikTok": false,
+        "isSoup": true,
+        "isPasta": false,
+        "isVeg": false
+    },
+    {
+        "id": 2,
+        "name": "Tomatsoppa med fetaost",
+        "category": ["Soppa"],
+        "time": "30 minuter",
+        "portions": "4 portioner",
+        "ingredients": [
+            {
+                "quantity": "8 dl",
+                "name": "krossade eller hela tomater"
+            },
+            {
+                "quantity": "1 st",
+                "name": "gul lök"
+            },
+            {
+                "quantity": "1 st",
+                "name": "grönsaksbuljongtärning"
+            },
+            {
+                "quantity": "2 st",
+                "name": "vitlöksklyftor"
+            },
+            {
+                "quantity": "5 dl",
+                "name": "vatten"
+            },
+            {
+                "quantity": "2 tsk",
+                "name": "socker eller honung"
+            },
+            {
+                "quantity": "2 msk",
+                "name": "örter, till exempel torkad timjan/oregano/basilika"
+            },
+            {
+                "quantity": "",
+                "name": "Svartpeppar"
+            },
+            {
+                "quantity": "6 dl",
+                "name": "vita bönor, kokta"
+            },
+            {
+                "quantity": "75 g",
+                "name": "fetaost"
+            },
+            {
+                "quantity": "",
+                "name": "Ev. frön att toppa med, ex. solrosfrön/pumpakärnor"
+            }
+        ],
+        "steps": [
+            "Skala lök och vitlök. Hacka i mindre bitar. Hetta upp olja i en kastrull. Fräs lök och vitlök i ett par minuter så att de blir mjuka, men ska ej brännas vid. Slå på tomaterna. Smula i buljongtärning. Slå på vatten. Tillsätt socker eller honung. Låt puttra på medelvärme i ca 15-20 min",
+            "Mixa i blender eller med hjälp av mixerstav till helt slät. Ställ åter på spisen och låt koka upp igen. Krydda efter smak och tycke med dina kryddor och svartpeppar. Lägg i de kokta bönorna i någon minut, och låt bli varma, de ska inte koka sönder.",
+            "Servera med smulad fetaost och om du har, lite färska kryddor. Toppa med frön om du vill."
+        ],
+        "html": "tomatsoppa-bonor.php",
+        "imageURL": "../img/tomatsoppa-bonor-1200x750.webp",
+        "altText": "Tomatsoppa i en skål med vita bönor",
+        "isFavorite": false,
+        "isTikTok": false,
+        "isSoup": true,
+        "isPasta": false,
+        "isVeg": false
+    },
+    {
+        "id": 3,
+        "name": "Pizza pannkakor",
+        "category": ["Pizza"],
+        "time": "25 minuter",
+        "portions": "2 portioner",
+        "ingredients": [
+            {
+                "quantity": "130 g",
+                "name": "vetemjöl"
+            },
+            {
+                "quantity": "150 ml",
+                "name": "vatten"
+            },
+            {
+                "quantity": "1 tsk",
+                "name": "olivolja"
+            },
+            {
+                "quantity": "1 tsk",
+                "name": "torrjäst"
+            },
+            {
+                "quantity": "3 tsk",
+                "name": "tomatpure"
+            },
+            {
+                "quantity": "2 tsk",
+                "name": "oregano"
+            },
+            {
+                "quantity": "1 st",
+                "name": "mozarella"
+            },
+            {
+                "quantity": "8 st",
+                "name": "oliver"
+            },
+            {
+                "quantity": "1/2 kruka",
+                "name": "färsk basilika"
+            }
+        ],
+        "steps": [
+            "Blanda torrjäst, vatten och mjöl tills smeten är slät",
+            "Hetta upp en stekpanna, häll i lite olja. Sprid ut smeten jämt.",
+            "Stek i 1-2 minuter innan du vänder. Använd lock för bästa resultat.",
+            "Smeta ut tomatpure och toppa med oregano.",
+            "Hacka mozarellan och oliverna, lägg dem på pizzan.",
+            "Sänk till låg-medium värme och sätt på locket. 8-10 minuter för tunn och krispig och 15 minuter för pan-pizza",
+            "Toppa med färsk basilika innan servering, njut!"
+        ],
+        "html": "pancake-pizza.php",
+        "imageURL": "../img/pancake-pizza-1200x750.webp",
+        "altText": "Pizza gjort på pannkakor",
+        "isFavorite": true,
+        "isTikTok": false,
+        "isSoup": false,
+        "isPasta": false,
+        "isVeg": true
+    },
+    {
+        "id": 4,
+        "name": "Snabbnudlar med stekt ägg",
+        "category": ["Asiatiskt"],
+        "time": "15 minuter",
+        "portions": "4 portioner",
+        "ingredients": [
+            {
+                "quantity": "4 st",
+                "name": "ägg"
+            },
+            {
+                "quantity": "",
+                "name": "Olja, till stekning"
+            },
+            {
+                "quantity": "255 g",
+                "name": "snabbnudlar"
+            },
+            {
+                "quantity": "",
+                "name": "Salt"
+            },
+            {
+                "quantity": "1,5 liter",
+                "name": "vatten"
+            },
+            {
+                "quantity": "1 st",
+                "name": "morot, tärnad"
+            },
+            {
+                "quantity": "1 st",
+                "name": "gul lök, hackad"
+            },
+            {
+                "quantity": "0,5 st",
+                "name": "zucchini"
+            },
+            {
+                "quantity": "2 st",
+                "name": "salladslökar, tunt skivad"
+            },
+            {
+                "quantity": "2 msk",
+                "name": "japansk soja"
+            },
+            {
+                "quantity": "1 dl",
+                "name": "rostad lök"
+            }
+        ],
+        "steps": [
+            "Stek äggen på låg värme i olja. Krydda med salt.",
+            "Koka upp buljongpulvret (från nudelförpackningarna) i vattnet och häll i grönsakerna. Lägg i nudlarna efter 1 min och tillsätt sojan.",
+            "Servera direkt då nudlarna blivit mjuka. Toppa med stekt ägg och rostad lök."
+        ],
+        "html": "snabbnudlar.php",
+        "imageURL": "../img/snabbnudlar-1200x750.webp",
+        "altText": "Nudlar i en skål med ätpinnar och ett stekt ägg på toppen",
+        "isFavorite": true,
+        "isTikTok": false,
+        "isSoup": false,
+        "isPasta": false,
+        "isVeg": true
+    },
+    {
+        "id": 5,
+        "name": "Kycklingwok",
+        "category": ["Kyckling", "Asiatiskt"],
+        "time": "20 minuter",
+        "portions": "4 portioner",
+        "ingredients": [
+            {
+                "quantity": "600 g",
+                "name": "kycklingbröstfiléer"
+            },
+            {
+                "quantity": "1 msk",
+                "name": "kinesisk soja"
+            },
+            {
+                "quantity": "2 msk",
+                "name": "olja"
+            },
+            {
+                "quantity": "1 tsk",
+                "name": "salt"
+            },
+            {
+                "quantity": "2 krm",
+                "name": "peppar"
+            },
+            {
+                "quantity": "1 msk",
+                "name": "curry"
+            },
+            {
+                "quantity": "400 g",
+                "name": "wokgrönsaker"
+            },
+            {
+                "quantity": "1 st",
+                "name": "vitlöksklyfta"
+            },
+            {
+                "quantity": "1 paket",
+                "name": "äggnudlar"
+            },
+            {
+                "quantity": "2 msk",
+                "name": "sweet chili-sås"
+            },
+            {
+                "quantity": "1 msk",
+                "name": "sesamfrön"
+            }
+        ],
+        "steps": [
+            "Strimla kycklingen och blanda med soja. Stek i olja med salt, peppar och curry.",
+            "Stek wokgrönsakerna och pressa över vitlöken.",
+            "Koka nudlarna och låt rinna av. Blanda alla ingredienser och strö över sesamfrön.",
+            "Servera med sweet chilisås."
+        ],
+        "html": "kycklingwok.php",
+        "imageURL": "../img/nudelwok-1200x750.webp",
+        "altText": "Nudlar i en skål toppat med sesamfrön",
+        "isFavorite": true,
+        "isTikTok": false,
+        "isSoup": false,
+        "isPasta": false,
+        "isVeg": false
+    },
+    {
+        "id": 6,
+        "name": "Marry Me Chicken",
+        "category": ["Kyckling"],
+        "time": "35 minuter",
+        "portions": "2 portioner",
+        "ingredients": [
+            {
+                "quantity": "2 st",
+                "name": "benfria kycklingbröst"
+            },
+            {
+                "quantity": "1 burk",
+                "name": "soltorkade tomater"
+            },
+            {
+                "quantity": "5 dl",
+                "name": "vispgrädde"
+            },
+            {
+                "quantity": "1 st",
+                "name": "kycklingbuljongtärning"
+            },
+            {
+                "quantity": "1 msk",
+                "name": "oregano"
+            },
+            {
+                "quantity": "2-3 st",
+                "name": "vitlöksklyftor"
+            },
+            {
+                "quantity": "2 msk",
+                "name": "olivolja"
+            },
+            {
+                "quantity": "1 dl",
+                "name": "riven parmesanost"
+            },
+            {
+                "quantity": "",
+                "name": "Salt och peppar"
+            },
+            {
+                "quantity": "",
+                "name": "Färsk persilja till servering"
+            },
+            {
+                "quantity": "1 paket",
+                "name": "pasta av valfri sort"
+            }
+        ],
+        "steps": [
+            "Klappa kyckligen torr med pappershanddukar. Krydda med salt och peppar. Hetta upp olja i en stekpanna på medium värme. Stek kycklingen på varje sida i ca. 5 minuter.",
+            "Lägg kyckligen åt sidan. I samma stekpanna, stek vitlöken i 30 sekunder. Lägg till grädde, buljontärning, oregano, soltorkade tomater, parmesan, salt och peppar. Rör om tills allt blandats.",
+            "Lägg tillbaka kycklingen och häll över lite av såsen. Låt allt koka tills kyckligen har en innertemperatur på ca. 72 grader.",
+            "Servera med persilja och kokt pasta."
+        ],
+        "html": "marry-me-chicken.php",
+        "imageURL": "../img/marry-me-chicken-1200x750.webp",
+        "altText": "Kyckling med pasta på en tallrik",
+        "isFavorite": false,
+        "isTikTok": true,
+        "isSoup": false,
+        "isPasta": false,
+        "isVeg": false
+    },
+    {
+        "id": 7,
+        "name": "Ugnsbakad pasta med feta",
+        "category": ["Pasta", "Vegetariskt"],
+        "time": "1 timme", 
+        "portions": "4 portioner",
+        "ingredients": [
+            {
+                "quantity": "1 paket",
+                "name": "pasta, valfri sort"
+            },
+            {
+                "quantity": "1 dl",
+                "name": "olivolja"
+            },
+            {
+                "quantity": "500 g",
+                "name": "körsbärstomater"
+            },
+            {
+                "quantity": "200 g",
+                "name": "fetaost"
+            },
+            {
+                "quantity": "4 st",
+                "name": "vitlöksklyftor"
+            },
+            {
+                "quantity": "1 tsk",
+                "name": "chili flakes"
+            },
+            {
+                "quantity": "1/2 kruka",
+                "name": "färsk basilika"
+            },
+            {
+                "quantity": "",
+                "name": "Salt och peppar"
+            }
+        ],
+        "steps": [
+            "Värm ugnen till 200 grader. Tillsätt tomater, olivolja och salt i en ugnsform och rör om. Lägg fetan i mitten och toppa med en skvätt mer olivolja & chilliflakes. Grädda i 30 minuter.",
+            "Under tiden, förbered pastan al dente enligt anvisningarna, se till att spara lite pastavatten till senare.",
+            "När de 30 minuterna har gått, höj värmen till 225 grader och grädda i ytterligare 5-10 minuter eller tills fetaosten och tomaterna har fått färg.",
+            "Ta ut ugnsformen ur ugnen, tillsätt direkt vitlök och basilika och rör om.",
+            "Tillsätt nu den silade al dente-pastan och rör om en gång till. Smaka av med salt och peppar efter smak. Om såsen är torr kan du tillsätta en halv dl pastavatten och röra om för att göra såsen mer krämig!"
+        ],
+        "html": "baked-feta-pasta.php",
+        "imageURL": "../img/baked-feta-pasta-1200x750.webp",
+        "altText": "Pasta med fetaost och tomater",
+        "isFavorite": false,
+        "isTikTok": true,
+        "isSoup": false,
+        "isPasta": true,
+        "isVeg": true
+    },
+    {
+        "id": 8,
+        "name": "Ramen lasagne",
+        "category": ["Pasta", "TikTok"],
+        "time": "45 minuter",
+        "portions": "4 portioner", 
+        "ingredients": [
+            {
+                "quantity": "2 paket",
+                "name": "ramennudlar"
+            },
+            {
+                "quantity": "5 dl",
+                "name": "pastasås"
+            },
+            {
+                "quantity": "2,5 dl",
+                "name": "riven cheddarost"
+            }
+        ],
+        "steps": [
+            "Lägg hälften av de torra nudlarna längst ner i en liten ugnssäker glasskål. Häll en generös mängd pastasås ovanpå ramennudlarna. Riv sedan färsk cheddarost ovanpå pastasåsen och täck allt med den återstående halvan av torra ramenudlar",
+            "Upprepa processen med ytterligare en generös pool pastasås och ännu mer nyriven ost ovanpå. ",
+            "Ta ett andra paket ramen, bryt nudlarna på mitten en gång till och lägg hälften ovanpå osten. Som du kanske har gissat, upprepa med mer pastasås och cheddarost. Ta sedan den sista halvan av ramennudlarna och krossa den så att smulorna faller som bitar av krispig panering.",
+            "Avsluta med lite mer cheddarost och sätt in skålen i ugnen på 175 grader i 30 minuter."
+        ],
+        "html": "ramen-lasagna.php",
+        "imageURL": "../img/ramen-lasagna-1200x750.webp",
+        "altText": "En skål med ramennudlar",
+        "isFavorite": false,
+        "isTikTok": true,
+        "isSoup": false,
+        "isPasta": true,
+        "isVeg": false
+    },
+    {
+        "id": 9,
+        "name": "Gulaschsoppa med köttfärs",
+        "category": ["Soppa"],
+        "time": "30 minuter",
+        "portions": "4 portioner", 
+        "ingredients": [
+            {
+                "quantity": "1",
+                "name": "gullök"
+            },
+            {
+                "quantity": "5 st",
+                "name": "potatisar"
+            },
+            {
+                "quantity": "1",
+                "name": "paprika"
+            },
+            {
+                "quantity": "2 msk",
+                "name": "olja"
+            },
+            {
+                "quantity": "500 g",
+                "name": "köttfärs"
+            },
+            {
+                "quantity": "6 dl",
+                "name": "vatten"
+            },
+            {
+                "quantity": "1",
+                "name": "köttbuljongtärning"
+            },
+            {
+                "quantity": "500 g",
+                "name": "krossade tomater"
+            },
+            {
+                "quantity": "2 tsk",
+                "name": "malen kummin"
+            },
+            {
+                "quantity": "",
+                "name": "Salt & peppar"
+            },
+            {
+                "quantity": "",
+                "name": "Gräddfil till servering"
+            }
+            
+        ],
+        "steps": [
+            "Skala lök och potatis. Dela och kärna ur paprikan. Skär grönsakerna i tärningar",
+            "Fräs grönsakerna och köttfärs i oljan i en gryta eller kastrull.",
+            "Tillsätt vatten, buljong, krossade tomater och kummin. Koka sakta ca. 10 minuter. Smaksätt med salt och peppar.",
+            "Till servering: Toppa med gräddfil och njut!"
+        ],
+        "html": "gulachsoppa.php",
+        "imageURL": "../img/gulaschsoppa-1200x750.webp",
+        "altText": "En skål med gulaschsoppa och en klick gräddfil",
+        "isFavorite": false,
+        "isTikTok": false,
+        "isSoup": true,
+        "isPasta": false,
+        "isVeg": false
+    },
+    {
+        "id": 10,
+        "name": "Pasta carbonara",
+        "category": ["Pasta"],
+        "time": "15 minuter",
+        "portions": "4 portioner", 
+        "ingredients": [
+            {
+                "quantity": "300 g",
+                "name": "spaghetti"
+            },
+            {
+                "quantity": "150 g",
+                "name": "rökt fläsk"
+            },
+            {
+                "quantity": "25 g",
+                "name": "smör"
+            },
+            {
+                "quantity": "1/2 dl",
+                "name": "vispgrädde"
+            },
+            {
+                "quantity": "1 krm",
+                "name": "salt"
+            },
+            {
+                "quantity": "2",
+                "name": "finhackade vitlöksklyftor"
+            },
+            {
+                "quantity": "3 dl",
+                "name": "riven ost"
+            },
+            {
+                "quantity": "2 krm",
+                "name": "svartpeppar"
+            },
+            {
+                "quantity": "4 st",
+                "name": "äggulor"
+            }
+            
+        ],
+        "steps": [
+            "Koka spaghettin enligt förpackningen.",
+            "Skär fläsket i små tärningar. Stek fläsket knaprigt i smör i en stekpanna.",
+            "Vispa ihop grädde, salt, vitlök och hälften av osten.",
+            "Rör ner fläsk och ostblandningen i den kokta spaghettin och rör kraftigt till en krämig konsistens. Strö över resten av osten och peppar. Servera pasta carbonara med en äggula."
+        ],
+        "html": "carbonara.php",
+        "imageURL": "../img/carbonara-1200x750.webp",
+        "altText": "En skål med pasta carbonara och en äggula på toppen",
+        "isFavorite": false,
+        "isTikTok": false,
+        "isSoup": false,
+        "isPasta": true,
+        "isVeg": false
+    }
+]
