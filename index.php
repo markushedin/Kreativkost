@@ -13,7 +13,7 @@ include("header.php");
         <figure class="hero-section">
             <img src="img/hero-illustration.png" class="hero-img" alt="">
             <article class="content">
-                <h1 class="headline mb">Du behöver inte vara rik för att äta lyxigt.</h1>
+                <h1 class="headline mb">Du behöverr inte vara rik för att äta lyxigt.</h1>
             </article>
         </figure>
     </div>
