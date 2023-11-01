@@ -399,6 +399,7 @@ body {
 .main-header .nav-container .main-menu {
   display: flex;
   list-style: none;
+  transition: 0.9s ease-in-out;
 }
 .main-header .nav-container .main-menu .main-menu-item {
   margin: 0 1rem;
@@ -408,10 +409,10 @@ body {
   color: #fafafa;
   text-decoration: none;
   font-weight: 700;
-  transition: 0.3s ease-in-out;
+  padding-bottom: 1rem;
 }
-.main-header .nav-container .main-menu:hover .link {
-  color: black;
+.main-header .nav-container .main-menu .main-menu-item:hover .link {
+  text-decoration: underline;
 }
 
 .hero-container {
