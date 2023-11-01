@@ -1,8 +1,8 @@
 To do
 - Lägg till container i js
-- Hover effekt på chips
 - Lägg till nya bilder
 - Lägg till siffror för "gör så här" på recept
+- Hover effekt på länkar
 
 ----
 

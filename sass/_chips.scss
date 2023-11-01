@@ -13,17 +13,26 @@
             font-weight: 500;
             user-select: none;
             cursor: pointer;
+            transition: 0.3s ease-in-out; 
         }
        
         
         &[type="checkbox"]{
             display: none;
+            
+            &:hover {
+                + label {
+                    background-color: $cta;
+                    color: $neutrals-light;
+                    
+                }
+             }
             &:checked {
                 + label {
                     background-color: $cta;
                     color: $neutrals-light;
                 }
-            }
+             }
         }
     }
     

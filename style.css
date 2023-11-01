@@ -602,9 +602,14 @@ body {
      -moz-user-select: none;
           user-select: none;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 #categorys .chip[type=checkbox] {
   display: none;
+}
+#categorys .chip[type=checkbox]:hover + label {
+  background-color: #A654A6;
+  color: #fafafa;
 }
 #categorys .chip[type=checkbox]:checked + label {
   background-color: #A654A6;
