@@ -17,4 +17,4 @@
             </section>
             <p class="footer-text-right">© Kreativ Kost 2023 </p>
         </div>
-    </footer>
+    </footer> 

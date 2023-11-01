@@ -524,14 +524,18 @@ body {
   }
 }
 .main-footer .footer-container .footer-content .social-media-container a .fa {
-  margin-bottom: 1.75rem;
+  margin-bottom: 16rem;
   font-size: 3rem;
   color: #fafafa;
+  transition: 0.3s ease-in-out;
 }
 @media (min-width: 1024px) {
   .main-footer .footer-container .footer-content .social-media-container a .fa {
     font-size: 2rem;
   }
+}
+.main-footer .footer-container .footer-content .social-media-container a:hover {
+  margin-bottom: 4rem;
 }
 @media (min-width: 1024px) {
   .main-footer .footer-container .footer-text-right {

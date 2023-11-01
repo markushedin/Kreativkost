@@ -44,13 +44,17 @@
                 }
                 a {
                     .fa {
-                        margin-bottom: 1.75rem;
+                        margin-bottom: 16rem;
                         font-size: 3rem;
                         color: $neutrals-light;
+                        transition: 0.3s ease-in-out; 
                         @media (min-width: $desktop-bp) {
                             font-size: 2rem;
                         }
                     }
+                    &:hover{
+                        margin-bottom: 4rem;
+                    } 
                 }
             }
         }
