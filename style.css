@@ -91,7 +91,7 @@ body {
 }
 @media (min-width: 1024px) {
   .headline {
-    font-size: 4.1rem;
+    font-size: 4.375rem;
     max-width: 650px;
   }
 }
@@ -126,7 +126,7 @@ body {
 }
 
 .small-headline {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 @media (min-width: 1024px) {
@@ -144,7 +144,7 @@ body {
 }
 @media (min-width: 1024px) {
   .card-headline {
-    font-size: 1.2rem;
+    font-size: 1.75rem;
   }
 }
 .card-headline.mb {
@@ -158,7 +158,7 @@ body {
 }
 @media (min-width: 1024px) {
   .bad-script {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 }
 
@@ -274,6 +274,11 @@ body {
      object-fit: cover;
   -o-object-position: 50% -40px;
      object-position: 50% -40px;
+}
+.recipes-cards .card:hover img {
+  transform: scale(1.05);
+  background-color: black;
+  transition: transform 0.2s ease-in-out;
 }
 
 @media (min-width: 1024px) {
@@ -729,7 +734,7 @@ body {
 }
 .recept .steps-container h2 {
   background-color: #fafafa;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-bottom: 0.5rem;
   color: #A654A6;
 }
