@@ -1,7 +1,8 @@
 To do
-- Hover effekt på korten
-- Rätt typsnitt och storlek ska in i variabler
 - Lägg till container i js
+- Hover effekt på chips
+- Lägg till nya bilder
+- Lägg till siffror för "gör så här" på recept
 
 ----
 
@@ -30,6 +31,4 @@ Detta har jag optimerat:
 - Alt taggar på bilder (vissa behöver fortfarande)
 - Tydligare text på knapparna
 
-img taggen i korten behöver jag sätta en transition och transform-scale
-på själva kortet en hover effect
-overflow-hidden på img-boxen
+

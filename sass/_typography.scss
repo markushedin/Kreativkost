@@ -17,6 +17,7 @@
     @media (min-width: $desktop-bp){
         font-size: $h1d;
         max-width: 650px;
+        line-height: 115%;
     }
     &.about-us-h1 {
         max-width: 100%;
@@ -33,8 +34,10 @@
 .mid-headline { //h2
     font-size: $h2m;
     font-weight: 500;
+    line-height: 145%;
     @media (min-width: $desktop-bp){
         font-size: $h2d;
+        line-height: 125%;
     }
     &.mb {
         margin-bottom: $x-small-padding;
@@ -46,9 +49,11 @@
 .small-headline { //h3
     font-size: $h3m;
     font-weight: 400;
+    line-height: 145%;
     @media (min-width: $desktop-bp){
         font-size: $h3d;
         font-weight: 500;
+        line-height: 145%;
     }
     &.mb {
         margin-bottom: $x-small-padding;
@@ -56,8 +61,10 @@
 }
 .card-headline {
     font-size: $h4m;
+    line-height: 145%;
     @media (min-width: $desktop-bp) {
         font-size: $h4d;
+        line-height: 145%;
     }
     &.mb {
         margin-bottom: $x-small-padding;
@@ -73,10 +80,15 @@
     }
 }
 .paragraph-text { //Default paragraph text
-    font-size: 1.1rem;
-    line-height: 1.45;
+    font-size: $p-text;
+    line-height: 145%;
     margin-bottom: $x-small-padding;
+    font-family: 'Lato', sans-serif;
     max-width: 590px;
+    @media (min-width: $desktop-bp) {
+        font-size: $p-text-d;
+        
+    }
     &.center {
         text-align: center;
     }
