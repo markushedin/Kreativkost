@@ -51,6 +51,8 @@
             height: 100%;
             object-fit: cover;
             object-position: 50% -40px;
+            transform: scale(1.05);
+            transition: transform var(--animation-normal-rollover,.3s) ease;
         }
     }
 }
