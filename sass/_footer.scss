@@ -43,9 +43,10 @@
                     border-bottom: 0;
                 }
                 a {
-                    margin-bottom: 15rem;
+                    
                     .fa {
                         margin-bottom: 1.75rem;
+                        
                         font-size: 3rem;
                         color: $neutrals-light;
                         transition: 0.3s ease-in-out; 
@@ -54,7 +55,10 @@
                         }
                     }
                     &:hover{
-                        margin-bottom: 1.75rem;
+                        .fa{
+                            padding-top: 0rem;
+                        }
+                      
                     } 
                 }
             }

@@ -523,9 +523,6 @@ body {
     border-bottom: 0;
   }
 }
-.main-footer .footer-container .footer-content .social-media-container a {
-  margin-bottom: 15rem;
-}
 .main-footer .footer-container .footer-content .social-media-container a .fa {
   margin-bottom: 1.75rem;
   font-size: 3rem;
@@ -537,8 +534,8 @@ body {
     font-size: 2rem;
   }
 }
-.main-footer .footer-container .footer-content .social-media-container a:hover {
-  margin-bottom: 1.75rem;
+.main-footer .footer-container .footer-content .social-media-container a:hover .fa {
+  padding-top: 0rem;
 }
 @media (min-width: 1024px) {
   .main-footer .footer-container .footer-text-right {
