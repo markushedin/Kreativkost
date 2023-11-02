@@ -1,13 +1,13 @@
 To do
 - Lägg till container i js
 - Lägg till nya bilder
-- Lägg till siffror för "gör så här" på recept (jonte sa att det ligger i en "list-style-none", ta bort den och börja stila siffrorna)
+- Lägg till siffror för "gör så här" på recept (KLAR MEN BEHÖVER STYLA DET SISTA)
 - Hover effekt på instagram ikonen
 - Lägg in fler recept
 - Styla cookien och intergritetspolicy
 - Ändra i desktop på koden i recept så “hur gör du” och “ingredienser” ligger bredvid varandra
-- Ta bort alla HTML-filer
-
+- Från Julia "För att få "hur gör du" och "ingredienser" behöver dem ligga tillsamans i en sektion och sedan får dem 2 ligga i 2 seperata divar
+- Lägg till dela funktionen
 
 
 ----

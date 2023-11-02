@@ -68,6 +68,11 @@
                 text-align: end;
             }
         }
+        .footer-text-left {
+            @media (min-width: $desktop-bp) {
+                text-align: start;
+            }
+        }
     }
 }
 .mb {

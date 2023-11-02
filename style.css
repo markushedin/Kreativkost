@@ -542,6 +542,11 @@ body {
     text-align: end;
   }
 }
+@media (min-width: 1024px) {
+  .main-footer .footer-container .footer-text-left {
+    text-align: start;
+  }
+}
 
 .mb {
   margin-bottom: 1.75rem;
@@ -583,7 +588,7 @@ body {
   border-radius: 10px;
   border-radius: 100px;
   outline: none;
-  box-shadow: 0px 0px 20px #8ECD9A;
+  box-shadow: 0px 0px 20px #54A654;
 }
 #search #search-bar #btn-search {
   position: absolute;
@@ -773,9 +778,41 @@ body {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
   color: #A654A6;
+  margin-bottom: 1rem;
 }
-.recept .steps-container ol li, .recept .steps-container ul li {
+.recept .steps-container ul li {
   list-style: none;
+}
+.recept .steps-container ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+.recept .steps-container ol li {
+  counter-increment: my-awesome-counter;
+  margin-bottom: 2rem;
+}
+.recept .steps-container ol li::before {
+  content: counter(my-awesome-counter);
+  background: #54A654;
+  width: 2rem;
+  height: 2rem;
+  font-size: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 2rem;
+  color: #fafafa;
+  text-align: center;
+  font-family: "Satoshi", sans-serif;
+  margin-right: 1rem;
+  border: 1px solid #111113;
+}
+@media (min-width: 1024px) {
+  .recept .steps-container ol li::before {
+    font-size: 24px;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+  }
 }
 
 /* Styles for the cookie popup */

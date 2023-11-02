@@ -112,11 +112,45 @@
             font-size: $h3m;
             margin-bottom: $nano-small-padding;
             color: $cta;
+            margin-bottom: 1rem;
         }
-        ol, ul {
+        ul {
             li{
                 list-style: none;
+
             }
+        }
+        ol{
+            list-style: none;
+            counter-reset: my-awesome-counter;
+            li{
+                counter-increment: my-awesome-counter;
+                margin-bottom: 2rem;
+                
+            }
+            li::before {
+                content: counter(my-awesome-counter);
+                background: $secondary-color;
+                width: 2rem;
+                height: 2rem;
+                font-size: 20px;
+                border-radius: 50%;
+                display: inline-block;
+                line-height: 2rem;
+                color: $neutrals-light;
+                text-align: center;
+                font-family: $primary-font;
+                margin-right: 1rem;
+                border: 1px solid $neutrals-dark;
+                @media (min-width: $desktop-bp){
+                    font-size: 24px;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    line-height: 2.5rem;
+                }
+               
+            }
+         
         }
     }
 }
