@@ -6,7 +6,7 @@ include("inc/abtest.php");
 
 <?php
 $pagetitle = "Kreativ Kost";
-include("header.php");
+include("inc/header.php");
  ?>
 
     <div class="hero-container">
@@ -95,28 +95,9 @@ include("header.php");
             </template>
         </section>
     </main>
-    <!-- Cookie Popup -->
-    <div id="cookie-popup" class="cookie-popup">
-        <div class="popup-content">
-            <span id="close-icon" class="close-icon">×</span>
-            <h2>Vi använder kakor</h2>
-            <p>Vi använder kakor för att göra ett så bra material som möjligt för sidan. Allting som samlas in är till för att förbättra upplevelsen på sidan och för att skapa ett så bra lärande material som möjligt.</p>
-            <div class="cookie-switch-container">
-                <span id="cookie-status" class="cookie-status">Kakinställningar</span>
-                <label class="switch">
-                    <input type="checkbox" id="cookie-switch">
-                    <span class="slider round"></span>
-                </label>
-            </div>
-            <button id="only-necessary-button" style="display: none;">Bara nödvändiga</button>
-            <button id="ok-button" style="display: none;">Ok</button>
-            <div class="b">
-                <a href="privacy-policy.php" class="integrity">Integritetspolicy</a>
-            </div>
-        </div>
-    </div>
+    
     <?php
-        include("footer.php");
+        include("inc/footer.php");
     ?>
     <script src="js/script.js"></script>
 </body>

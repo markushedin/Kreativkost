@@ -1,4 +1,4 @@
-<?php require "header.php"; ?>
+<?php require "inc/header.php"; ?>
 
 <main>
 	<h1>Integritetspolicy</h1>
@@ -26,4 +26,4 @@
     <p>Genom att använda Designtrainr samtycker du till villkoren och praxis som beskrivs i denna Integritetspolicy. Din integritet är viktig för oss, och vi är engagerade i att upprätthålla de högsta standarderna för dataskydd.</p>
 </main>
 
-<?php require "footer.php"; ?>
+<?php require "inc/footer.php"; ?>
