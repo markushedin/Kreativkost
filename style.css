@@ -537,15 +537,70 @@ body {
 .main-footer .footer-container .footer-content .social-media-container a:hover .fa {
   padding-top: 0rem;
 }
+.main-footer .footer-container .text_bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
 @media (min-width: 1024px) {
-  .main-footer .footer-container .footer-text-right {
+  .main-footer .footer-container .text_bottom .footer-text-right {
     text-align: end;
   }
 }
 @media (min-width: 1024px) {
-  .main-footer .footer-container .footer-text-left {
+  .main-footer .footer-container .text_bottom .footer-text-left {
     text-align: start;
   }
+}
+.main-footer .footer-container .text_bottom .footer-text-left .cookie-settings-button {
+  background-color: transparent;
+  color: #fafafa;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  margin: 0.5rem;
+  padding-bottom: 0.1rem;
+  transition: 0.1s ease-in-out;
+  position: relative;
+  cursor: pointer;
+}
+.main-footer .footer-container .text_bottom .footer-text-left :after {
+  content: "";
+  position: absolute;
+  background-color: #fafafa;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s;
+}
+.main-footer .footer-container .text_bottom .footer-text-left :hover:after {
+  width: 100%;
+}
+.main-footer .footer-container .text_bottom .footer-text-left .integrity {
+  background-color: transparent;
+  color: #fafafa;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  padding-bottom: 0.1rem;
+  transition: 0.1s ease-in-out;
+  position: relative;
+}
+.main-footer .footer-container .text_bottom .footer-text-left a:after {
+  content: "";
+  position: absolute;
+  background-color: #fafafa;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s;
+}
+.main-footer .footer-container .text_bottom .footer-text-left a:hover:after {
+  width: 100%;
 }
 
 .mb {
@@ -672,12 +727,15 @@ body {
 .recept {
   max-width: 1200px;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 .recept figure {
   position: relative;
   margin-bottom: 13rem;
   max-width: 1200px;
   height: 100%;
+  flex: 0 0 100%;
 }
 @media (min-width: 580px) {
   .recept figure {
@@ -752,6 +810,7 @@ body {
 }
 .recept .steps-container {
   padding: 1rem;
+  flex: 0 0 50%;
   border: 2px solid #111113;
   border-radius: 10px;
   width: 90%;
@@ -791,6 +850,9 @@ body {
   counter-increment: my-awesome-counter;
   margin-bottom: 2rem;
 }
+.recept .steps-container ol li.paragraph-text {
+  display: flex;
+}
 .recept .steps-container ol li::before {
   content: counter(my-awesome-counter);
   background: #54A654;
@@ -805,6 +867,7 @@ body {
   font-family: "Satoshi", sans-serif;
   margin-right: 1rem;
   border: 1px solid #111113;
+  flex: 0 0 34px;
 }
 @media (min-width: 1024px) {
   .recept .steps-container ol li::before {
@@ -812,6 +875,7 @@ body {
     width: 2.5rem;
     height: 2.5rem;
     line-height: 2.5rem;
+    flex: 0 0 39px;
   }
 }
 

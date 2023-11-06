@@ -15,11 +15,10 @@
                     </a>
                 </div>
             </section>
-            <p class="footer-text-right">© Kreativ Kost 2023 </p>
-            <p class="footer-text-left"><button id="cookie-settings-button" class="cookie-settings-button">Kakinställningar</button> <a href="privacy-policy.php" class="integrity">Integritetspolicy</a></p>
-            
-            
-            
+            <div class="text_bottom">
+                <p class="footer-text-right">© Kreativ Kost 2023 </p>
+                <p class="footer-text-left"><button id="cookie-settings-button" class="cookie-settings-button">Kakinställningar</button> <a href="privacy-policy.php" class="integrity">Integritetspolicy</a></p>
+            </div>
         </div>
     </footer> 
     <!-- Cookie Popup -->

@@ -26,11 +26,14 @@
 .recept {
     max-width: $max-width;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
     figure {
         position: relative;
         margin-bottom: 13rem;
         max-width: $max-width;
         height: 100%;
+        flex: 0 0 100%;
         @media (min-width: $tablet-bp) {
             margin-bottom: 8rem;
         }
@@ -90,8 +93,10 @@
             text-align: center;
         }
     }
+   
     .steps-container {
         padding: $x-small-padding;
+        flex: 0 0 50%;
         @include border (border);
         width: 90%;
         margin: auto;
@@ -117,7 +122,7 @@
         ul {
             li{
                 list-style: none;
-
+                
             }
         }
         ol{
@@ -126,6 +131,11 @@
             li{
                 counter-increment: my-awesome-counter;
                 margin-bottom: 2rem;
+                &.paragraph-text{
+                    display: flex;
+                   
+                }
+           
                 
             }
             li::before {
@@ -142,11 +152,13 @@
                 font-family: $primary-font;
                 margin-right: 1rem;
                 border: 1px solid $neutrals-dark;
+                flex: 0 0 34px;
                 @media (min-width: $desktop-bp){
                     font-size: 24px;
                     width: 2.5rem;
                     height: 2.5rem;
                     line-height: 2.5rem;
+                    flex: 0 0 39px;
                 }
                
             }
