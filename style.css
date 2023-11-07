@@ -1016,4 +1016,8 @@ input:checked + .slider:before {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+}
+
+main {
+  max-width: 1200px;
 }/*# sourceMappingURL=style.css.map */
