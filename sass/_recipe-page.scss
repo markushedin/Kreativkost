@@ -53,6 +53,7 @@
         position: absolute;
         top: 380px;
         background-color: $neutrals-light;
+        margin-bottom: 2rem;
         @include border (border);
         width: 80%;
         @media (min-width: $desktop-bp) {
@@ -96,18 +97,22 @@
    
     .steps-container {
         padding: $x-small-padding;
-        flex: 0 0 50%;
+        
         @include border (border);
         width: 90%;
         margin: auto;
         margin-bottom: $small-padding;
         background-color: $neutrals-light;
         @media (min-width: $desktop-bp) {
-            border: 0;
-            margin: 0;
+            margin-right: $small-padding;
+            padding: $small-padding;
+            margin-top: 0;
+            margin-left: 0;
+            margin-bottom: 0;
+            flex: 0 0 46%;
         }
         @media (min-width: 1220px) {
-            padding: $x-small-padding 0;//t, r, b, l
+           
         }
         &.hidden-section {
             display: none;
@@ -164,5 +169,7 @@
             }
          
         }
+        
     }
+    
 }

@@ -14,7 +14,7 @@ body{
 .container{
     max-width: $max-width;
     margin: auto;
-    padding: $x-small-padding;
+    
     @media (min-width: 1220px) {
         //padding: $x-small-padding 0;//t, r, b, l
     }
