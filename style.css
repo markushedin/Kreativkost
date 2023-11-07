@@ -1018,6 +1018,33 @@ input:checked + .slider:before {
   margin-bottom: 1rem;
 }
 
-main {
+.container_policy {
   max-width: 1200px;
+  display: flex;
+  margin: auto;
+  padding: 1rem;
+}
+.container_policy main h1 {
+  margin-bottom: 1rem;
+}
+@media (min-width: 1024px) {
+  .container_policy main h1 {
+    margin-bottom: 2rem;
+  }
+}
+.container_policy main h2 {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .container_policy main h2 {
+    margin-bottom: 0.75rem;
+  }
+}
+.container_policy main p {
+  margin-bottom: 2rem;
+}
+@media (min-width: 1024px) {
+  .container_policy main p {
+    margin-bottom: 4rem;
+  }
 }/*# sourceMappingURL=style.css.map */
