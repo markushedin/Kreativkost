@@ -281,11 +281,11 @@ body {
 }
 .recipes-cards .card img {
   width: 100%;
-  height: 72%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 50% 0px;
-     object-position: 50% 0px;
+  -o-object-position: 50% -48px;
+     object-position: 50% -48px;
   transition: transform 0.3s ease-in-out;
 }
 .recipes-cards .card:hover img {
@@ -728,6 +728,7 @@ body {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .recept figure {
   position: relative;
