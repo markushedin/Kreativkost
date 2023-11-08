@@ -25,5 +25,4 @@ Frågor till gruppen
 ----
 
 Fråga jonte
-- Hur tar man bort cookien på sin egna dator
-- Fråga om bilderna
+- Fråga om A/B test
