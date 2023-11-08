@@ -1,10 +1,11 @@
 To do
 - Lägg till container i js
-- Lägg till nya bilder
 - Hover effekt på instagram ikonen
 - Lägg in fler recept
 - Styla cookie popup
 - Lägg till dela funktionen
+- Lägg till peters uppdaterade PHP kod
+- Gör A/B test
 
 
 ----
@@ -20,4 +21,9 @@ Frågor till gruppen
 - Ska vi bara ta bort sök funktionen?
 - Har du gjort en facebook sida?
 - Försök hitta en ny bild till marry me chicken
+- Ska vi ta bort illustrationer i recept?
 ----
+
+Fråga jonte
+- Hur tar man bort cookien på sin egna dator
+- Ska man lägga till hotjars feedbackruta
