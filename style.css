@@ -1035,7 +1035,6 @@ input:checked + .slider:before {
   max-width: 1200px;
   display: flex;
   margin: auto;
-  padding: 1rem;
 }
 .container_policy main h1 {
   margin-bottom: 1rem;
