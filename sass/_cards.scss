@@ -17,6 +17,7 @@
         border-radius: $primary-border-radius;
         overflow: hidden;
         max-width: 579px;
+        text-decoration: none;
         // height: 340px;
         @include border (border);
         @media (min-width: $tablet-bp) {
@@ -26,29 +27,9 @@
         @media (min-width: $desktop-bp) {
             max-width: 32%;
         }
-        .gradient{
-            position: absolute;
-            bottom: 0px;
-            left: 0;
-            right: 0;
-            height: 95px;
-            background-color: $neutrals-light;
-        }
-        .card-bg{
-            background-color: hotpink; //lmao ändra snälla
-            border-radius: $primary-border-radius;
-        }
-        .card-text{
-            background-color: white;
-            padding: $x-small-padding;
-            color: $neutrals-dark;
-           
-            p, h3 {
-                margin-bottom: $x-small-padding;
-            }
-        }
         .bild-box{
             height: 250px;
+            overflow: hidden;
             img{
                 width: 100%;
                 height: 100%;
@@ -64,6 +45,31 @@
             }  
 
         }
+        .card-bg{
+            background-color: hotpink; //lmao ändra snälla
+            border-radius: $primary-border-radius;
+        }
+        .card-text{
+            background-color: white;
+            padding: $x-small-padding;
+            color: $neutrals-dark;
+           
+            p, h3 {
+                margin-bottom: $x-small-padding;
+            }
+            h4{
+
+            }
+        }
+        .gradient{
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            height: 95px;
+            background-color: $neutrals-light;
+        }
+        
         
     }
    

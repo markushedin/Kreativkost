@@ -55,38 +55,38 @@ include("inc/header.php");
                 <h3 class="small-headline mb">Våra tre favoriter</h3>
                 <div favoriteRecipes class="cards-flexbox"></div>
             </section>
-            <article class="recipes-cards">
+            <section class="recipes-cards">
                 <h3 class="small-headline mb">Recept från Tik-Tok</h3>
                 <section tikTokRecipes class="cards-flexbox">
                 </section>
-            </article>
-            <article class="recipes-cards">
+            </section>
+            <section class="recipes-cards">
                 <h3 class="small-headline mb">Soppor</h3>
                 <section soupRecipes class="cards-flexbox">
                 </section>
-            </article>
-            <article class="recipes-cards">
+            </section>
+            <section class="recipes-cards">
                 <h3 class="small-headline mb">Vegetariskt</h3>
                 <article vegRecipes class="cards-flexbox">
                 </article>
-            </article>
-            <article class="recipes-cards">
+            </section>
+            <section class="recipes-cards">
                 <h3 class="small-headline mb">Pasta</h3>
                 <article pastaRecipes class="cards-flexbox">
                 </article>
-            </article>
-            <article class="recipes-cards hidden">
+            </section>
+            <section class="recipes-cards hidden">
                 <h3 class="small-headline mb">Filtrerade recept</h3>
                 <article searchFilteredRecipes class="cards-flexbox">
                 </article>
-            </article>
+            </section>
             <template data-user-template>
                 <!-- KORTET -->
                 <article class="card">
                     <a href="" data-link>
-                        <div class="bild-box">
+                        <figure class="bild-box">
                             <img data-image> 
-                        </div>
+                        </figure>
                         <div class="card-text">
                             <p data-cat class="visually-hidden"></p>
                             <h4 data-header class="card-headline mb"></h4>

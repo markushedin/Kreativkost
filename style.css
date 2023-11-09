@@ -261,6 +261,7 @@ body {
   border-radius: 10px;
   overflow: hidden;
   max-width: 579px;
+  text-decoration: none;
   border: 2px solid #111113;
   border-radius: 10px;
 }
@@ -275,13 +276,19 @@ body {
     max-width: 32%;
   }
 }
-.recipes-cards .card .gradient {
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  right: 0;
-  height: 95px;
-  background-color: #fafafa;
+.recipes-cards .card .bild-box {
+  height: 250px;
+  overflow: hidden;
+}
+.recipes-cards .card .bild-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+.recipes-cards .card .bild-box:hover img {
+  transform: scale(1.05);
 }
 .recipes-cards .card .card-bg {
   background-color: hotpink;
@@ -295,18 +302,13 @@ body {
 .recipes-cards .card .card-text p, .recipes-cards .card .card-text h3 {
   margin-bottom: 1rem;
 }
-.recipes-cards .card .bild-box {
-  height: 250px;
-}
-.recipes-cards .card .bild-box img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  transition: transform 0.3s ease-in-out;
-}
-.recipes-cards .card .bild-box:hover img {
-  transform: scale(1.05);
+.recipes-cards .card .gradient {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  height: 95px;
+  background-color: #fafafa;
 }
 
 @media (min-width: 1024px) {
