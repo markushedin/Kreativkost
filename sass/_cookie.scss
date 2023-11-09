@@ -41,17 +41,43 @@
     }
 }
 #only-necessary-button{
-    border:none;
+  padding: 1rem;
+  margin-bottom: 16px;
+  min-width: 170px;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 900;
+  font-family: 'Satoshi';
+  border: 2px solid $neutrals-dark;
+  border-radius: 5px;
+  background-color: $neutrals-light;
+  transition: transform 0.3s ease-in-out; 
+  cursor: pointer;
+  
 }
 #ok-button{
-    background-color:#FAC000;
+  padding: 1rem;
+  margin-bottom: 16px;
+  min-width: 170px;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 900;
+  font-family: 'Satoshi';
+  border: 2px solid $neutrals-dark;
+  border-radius: 5px;
+  background-color: #A654A6;
+  color: $neutrals-light;
+  transition: transform 0.3s ease-in-out; 
+  cursor: pointer;
     
     &:hover{
-        background-color:#E0AB00;
+        background-color:rgb(195, 96, 195);
+        color: $neutrals-light
+        ;
     }
 }
 .b{
-    text-align:center;
+    text-align:left;
     .integrity{
       background-color: transparent;
       color: $neutrals-dark; 
