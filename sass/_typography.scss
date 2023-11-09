@@ -19,6 +19,15 @@
         max-width: 650px;
         line-height: 115%;
     }
+    &.policy {
+        max-width: 100%;
+        text-align: left;
+        margin-top: $x-small-padding;
+        font-size: 1.5rem;
+        @media (min-width: $desktop-bp){
+            font-size: 2rem;
+        }
+    }
     &.about-us-h1 {
         max-width: 100%;
         text-align: left;
@@ -44,6 +53,12 @@
     }
     &.ml {
         margin-left: $x-small-padding;
+    }
+    &.policy {
+       font-size: 1.25rem;
+       @media (min-width: $desktop-bp){
+        font-size: 1.5rem;
+    }
     }
 }
 .small-headline { //h3
