@@ -17,7 +17,7 @@
         border-radius: $primary-border-radius;
         overflow: hidden;
         max-width: 579px;
-        text-decoration: none;
+        
         // height: 340px;
         @include border (border);
         @media (min-width: $tablet-bp) {
@@ -26,6 +26,9 @@
         }
         @media (min-width: $desktop-bp) {
             max-width: 32%;
+        }
+        a{
+            text-decoration: none;
         }
         .bild-box{
             height: 250px;

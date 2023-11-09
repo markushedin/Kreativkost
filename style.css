@@ -261,7 +261,6 @@ body {
   border-radius: 10px;
   overflow: hidden;
   max-width: 579px;
-  text-decoration: none;
   border: 2px solid #111113;
   border-radius: 10px;
 }
@@ -275,6 +274,9 @@ body {
   .recipes-cards .card {
     max-width: 32%;
   }
+}
+.recipes-cards .card a {
+  text-decoration: none;
 }
 .recipes-cards .card .bild-box {
   height: 250px;
