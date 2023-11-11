@@ -2,10 +2,10 @@ To do
 - Lägg till container i js
 - Hover effekt på instagram ikonen
 - Lägg in fler recept
-- Styla cookie popup
 - Lägg till dela funktionen
 - Lägg till peters uppdaterade PHP kod
 - Gör A/B test
+- Lägg till så bilderna ändrar format
 
 
 ----
