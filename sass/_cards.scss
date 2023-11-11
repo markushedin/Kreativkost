@@ -3,11 +3,12 @@
     margin-bottom: $medium-padding;
     .cards-flexbox {
         @media (min-width: $tablet-bp) {
-            @include flexbox-3(space-between, wrap);
-        }
-        @media (min-width: $desktop-bp) {
             @include flexbox-3(flex-start, wrap);
             gap: 1.2rem;
+        }
+        @media (min-width: $desktop-bp) {
+            
+            
         }
     }
     .card{
@@ -16,13 +17,52 @@
         border-radius: $primary-border-radius;
         overflow: hidden;
         max-width: 579px;
-        height: 340px;
+        
+        // height: 340px;
         @include border (border);
         @media (min-width: $tablet-bp) {
-            max-width: 49%;
+            flex: 0 0 calc(100%/2 - 1.2rem);
+            margin-bottom: 0;
         }
         @media (min-width: $desktop-bp) {
             max-width: 32%;
+        }
+        a{
+            text-decoration: none;
+        }
+        .bild-box{
+            height: 250px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                //height: 100%;
+                object-fit: cover;
+                //object-position: 50% -48px;
+                transition: transform 0.3s ease-in-out; 
+            }
+            &:hover{
+                img{
+                    transform: scale(1.05);
+                }
+            }  
+
+        }
+        .card-bg{
+            background-color: hotpink; //lmao ändra snälla
+            border-radius: $primary-border-radius;
+        }
+        .card-text{
+            background-color: white;
+            padding: $x-small-padding;
+            color: $neutrals-dark;
+           
+            p, h3 {
+                margin-bottom: $x-small-padding;
+            }
+            h4{
+
+            }
         }
         .gradient{
             position: absolute;
@@ -32,33 +72,8 @@
             height: 95px;
             background-color: $neutrals-light;
         }
-        .card-bg{
-            background-color: hotpink; //lmao ändra snälla
-            border-radius: $primary-border-radius;
-        }
-        .card-text{
-            position: absolute;
-            bottom: 0;
-            padding: $x-small-padding;
-            color: $neutrals-dark;
-            z-index: 1;
-            p, h3 {
-                margin-bottom: $x-small-padding;
-            }
-        }
-        img{
-            width: 100%;
-            height: 100%;
-            //height: 100%;
-            object-fit: cover;
-            object-position: 50% -48px;
-            transition: transform 0.3s ease-in-out; 
-        }
-        &:hover{
-            img{
-                transform: scale(1.05);
-            }
-        }  
+        
+        
     }
    
 }
