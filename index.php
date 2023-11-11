@@ -48,53 +48,50 @@ include("inc/header.php");
             </form>
         </section>
         <section class="user-recipes">
-            <section class="recipes-cards">
-                <div class="popular-cards" data-user-cards></div>
-            </section>
-            <section class="recipes-cards">
+            <article class="recipes-cards">
+                <article class="popular-cards" data-user-cards></article>
+            </article>
+            <article class="recipes-cards">
                 <h3 class="small-headline mb">Våra tre favoriter</h3>
-                <div favoriteRecipes class="cards-flexbox"></div>
-            </section>
-            <section class="recipes-cards">
+                <article favoriteRecipes class="cards-flexbox"></article>
+            </article>
+            <article class="recipes-cards">
                 <h3 class="small-headline mb">Recept från Tik-Tok</h3>
-                <section tikTokRecipes class="cards-flexbox">
-                </section>
-            </section>
-            <section class="recipes-cards">
+                <article tikTokRecipes class="cards-flexbox">
+                </article>
+            </article>
+            <article class="recipes-cards">
                 <h3 class="small-headline mb">Soppor</h3>
-                <section soupRecipes class="cards-flexbox">
-                </section>
-            </section>
-            <section class="recipes-cards">
+                <article soupRecipes class="cards-flexbox">
+                </article>
+            </article>
+            <article class="recipes-cards">
                 <h3 class="small-headline mb">Vegetariskt</h3>
                 <article vegRecipes class="cards-flexbox">
                 </article>
-            </section>
-            <section class="recipes-cards">
+            </article>
+            <article class="recipes-cards">
                 <h3 class="small-headline mb">Pasta</h3>
                 <article pastaRecipes class="cards-flexbox">
                 </article>
-            </section>
-            <section class="recipes-cards hidden">
+            </article>
+            <article class="recipes-cards hidden">
                 <h3 class="small-headline mb">Filtrerade recept</h3>
                 <article searchFilteredRecipes class="cards-flexbox">
                 </article>
-            </section>
+            </article>
             <template data-user-template>
-                <!-- KORTET -->
-                <article class="card">
+                <div class="card">
                     <a href="" data-link>
-                        <figure class="bild-box">
-                            <img data-image> 
-                        </figure>
                         <div class="card-text">
                             <p data-cat class="visually-hidden"></p>
                             <h4 data-header class="card-headline mb"></h4>
                             <button class="btn-text">Gå till receptet →</button>
                         </div>
-                        <!-- <div class="gradient"></div> -->
+                        <img data-image> 
+                        <div class="gradient"></div>
                     </a>
-                </article>
+                </div>
             </template>
         </section>
     </main>
