@@ -282,10 +282,12 @@ body {
 }
 .recipes-cards .card a {
   text-decoration: none;
+  cursor: auto;
 }
 .recipes-cards .card .bild-box {
   height: 250px;
   overflow: hidden;
+  cursor: pointer;
 }
 .recipes-cards .card .bild-box img {
   width: 100%;
@@ -308,6 +310,9 @@ body {
 }
 .recipes-cards .card .card-text p, .recipes-cards .card .card-text h3 {
   margin-bottom: 1rem;
+}
+.recipes-cards .card .card-text .btn-text {
+  cursor: pointer;
 }
 .recipes-cards .card .gradient {
   position: absolute;
