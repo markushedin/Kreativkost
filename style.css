@@ -282,7 +282,7 @@ body {
 }
 .recipes-cards .card a {
   text-decoration: none;
-  cursor: none;
+  cursor: auto;
 }
 .recipes-cards .card .bild-box {
   height: 250px;
