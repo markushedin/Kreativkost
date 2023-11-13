@@ -1008,7 +1008,8 @@ body {
   font-size: 1rem;
   text-decoration: none;
   border-bottom: solid 1px #111113;
-  font-weight: 400;
+  font-weight: 500;
+  transition: transform 0.3s ease-in-out;
 }
 
 /* Add styles for the close icon */

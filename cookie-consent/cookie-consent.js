@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=6');
         console.log('Hotjar enabled');
     }
-    
+
     // Function to disable Hotjar
     function disableHotjar() {
         // Remove the Hotjar script from the DOM

@@ -26,6 +26,7 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     max-width:400px;
     min-width:80%;
+    
     @media (min-width:800px){
         min-width:20%;
     }
@@ -85,7 +86,9 @@
       font-size: 1rem;
       text-decoration: none;
       border-bottom:  solid 1px $neutrals-dark;
-      font-weight: 400;
+      font-weight: 500;
+      transition: transform 0.3s ease-in-out; 
+    
   }
 
   
