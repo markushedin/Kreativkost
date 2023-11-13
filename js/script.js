@@ -9,6 +9,8 @@ const vegRecipes = document.querySelector('[vegRecipes]');
 const searchFilteredRecipes = document.querySelector('[searchFilteredRecipes]');
 const searchInput = document.querySelector('[data-search]');
 const allChips = document.querySelectorAll('.chip');
+const container = document.querySelector('container');
+console.log(container);
 
 let recipes = [];
 const filters = {

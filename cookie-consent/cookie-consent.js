@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Replace 'YOUR-HOTJAR-ID' with your actual Hotjar ID
         (function (h, o, t, j, a, r) {
             h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-            h._hjSettings = { hjid: 3707689, hjsv: 6 };
+            h._hjSettings = { hjid: 3734406, hjsv: 6 };
             a = o.getElementsByTagName('head')[0];
             r = o.createElement('script');
             r.async = 1;
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=6');
         console.log('Hotjar enabled');
     }
-
+    
     // Function to disable Hotjar
     function disableHotjar() {
         // Remove the Hotjar script from the DOM
