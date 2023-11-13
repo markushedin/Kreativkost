@@ -151,7 +151,7 @@
     {
         "id": 3,
         "name": "Pizza pannkakor",
-        "category": ["Pizza"],
+        "category": ["Pizza", "TikTok"],
         "time": "25 minuter",
         "portions": "2 portioner",
         "ingredients": [
@@ -208,7 +208,8 @@
         "isTikTok": false,
         "isSoup": false,
         "isPasta": false,
-        "isVeg": true
+        "isVeg": true,
+        "isPizza": false
     },
     {
         "id": 4,
@@ -346,7 +347,7 @@
     {
         "id": 6,
         "name": "Marry Me Chicken",
-        "category": ["Kyckling"],
+        "category": ["Kyckling", "TikTok"],
         "time": "35 minuter",
         "portions": "2 portioner",
         "ingredients": [
@@ -413,7 +414,7 @@
     {
         "id": 7,
         "name": "Ugnsbakad pasta med feta",
-        "category": ["Pasta", "Vegetariskt"],
+        "category": ["Pasta", "Vegetariskt", "TikTok"],
         "time": "1 timme", 
         "portions": "4 portioner",
         "ingredients": [

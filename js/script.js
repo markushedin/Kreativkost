@@ -4,6 +4,7 @@ const favoriteRecipes = document.querySelector('[favoriteRecipes]');
 const tikTokRecipes = document.querySelector('[tikTokRecipes]');
 const soupRecipes = document.querySelector('[soupRecipes]');
 const pastaRecipes = document.querySelector('[pastaRecipes]');
+const pizzaRecipes = document.querySelector('[pizzaRecipes]');
 const vegRecipes = document.querySelector('[vegRecipes]');
 const searchFilteredRecipes = document.querySelector('[searchFilteredRecipes]');
 const searchInput = document.querySelector('[data-search]');
@@ -57,6 +58,9 @@ loadData = () => {
             }
             if(recipe.isPasta) {
                 pastaRecipes.append(recipe.element.cloneNode(true));
+            }
+            if(recipe.isPizza) {
+               pizzaRecipes.append(recipe.element.cloneNode(true));
             }
             if(recipe.isVeg) {
                 vegRecipes.append(recipe.element.cloneNode(true));

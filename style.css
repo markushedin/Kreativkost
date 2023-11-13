@@ -158,8 +158,8 @@ body {
 }
 
 .small-headline {
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 500;
   line-height: 145%;
 }
 @media (min-width: 1024px) {
@@ -282,7 +282,7 @@ body {
 }
 .recipes-cards .card a {
   text-decoration: none;
-  cursor: auto;
+  cursor: none;
 }
 .recipes-cards .card .bild-box {
   height: 250px;
@@ -871,7 +871,7 @@ body {
 }
 .recept .steps-container h2 {
   background-color: #fafafa;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
   color: #A654A6;
   margin-bottom: 1rem;
