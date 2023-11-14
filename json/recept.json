@@ -668,6 +668,56 @@
         "isSoup": false,
         "isPasta": false,
         "isVeg": false
+    },
+    {
+        "id": 12,
+        "name": "Peuranska spenatplättar",
+        "category": ["Vegetariskt"],
+        "time": "1 timme",
+        "portions": "4 portion", 
+        "ingredients": [
+            {
+                "quantity": "100 g",
+                "name": "färsk spenat"
+            },
+            {
+                "quantity": "2-3 st",
+                "name": "salladslökar"
+            },
+            {
+                "quantity": "1",
+                "name": "tomater"
+            },
+            {
+                "quantity": "3",
+                "name": "ägg"
+            },
+            {
+                "quantity": "4 msk",
+                "name": "vetemjöl"
+            },
+            {
+                "quantity": "Salt & peppar",
+                "name": ""
+            },
+            {
+                "quantity": "Olja till stekning",
+                "name": ""
+            }
+            
+        ],
+        "steps": [
+            "Skölj spenaten och hacka grovt. Klappa spenaten torr med hushållspapper så slipper du massa vätska i smeten. Hacka tomat i små tärningar och låt vätska rinna av, hacka lök fint. Lägg spenat, tomat och lök i en bunke",
+            "Knäck äggen i en skål och vispa lite lätt med en gaffel och häll sedan över grönsakerna. Tillsätt mjöl, salt och peppar. Blanda ihop till en smet. Smeten är ganska lös i konsistensen. Så fort du har blandat ihop smeten börjar du direkt steka plättarna eftersom spenaten vätskar sig och bör inte stå länge.",
+            "Hetta upp olja i en stekpanna, klicka ut smet med en sked. Tänk på att inte ha för låg värme, då kommer plättarna att flyta ut för mycket i stekpannan. Du ska dock inte ha för hög värme heller, medelhög värme är perfekt. Stek ca 4 min på varje sida. Låt plättarna rinna av på papper.","Servera med ris!"
+        ],
+        "html": "peuranska-spenatplättar.php",
+        "imageURL": "../img/peuranska- spenatplättar-1200x750.webp",
+        "altText": "Vegetariska spenatplättar som serveras med ris.",
+        "isFavorite": false,
+        "isTikTok": false,
+        "isSoup": false,
+        "isPasta": false,
+        "isVeg": false
     }
-    
 ]
