@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Fransk linssoppa",
-        "category": ["Soppa"], 
+        "category": ["Soppa","Vegetariskt"], 
         "time": "45 minuter",
         "portions": "6 portioner",
         "ingredients": [
@@ -85,7 +85,7 @@
     {
         "id": 2,
         "name": "Tomatsoppa med fetaost",
-        "category": ["Soppa"],
+        "category": ["Soppa", "Vegetariskt"],
         "time": "30 minuter",
         "portions": "4 portioner",
         "ingredients": [
@@ -151,7 +151,7 @@
     {
         "id": 3,
         "name": "Pizza pannkakor",
-        "category": ["Pizza", "TikTok"],
+        "category": ["Pizza", "TikTok","Vegetariskt"],
         "time": "25 minuter",
         "portions": "2 portioner",
         "ingredients": [
@@ -214,7 +214,7 @@
     {
         "id": 4,
         "name": "Snabbnudlar med stekt ägg",
-        "category": ["Asiatiskt"],
+        "category": ["Asiatiskt","Vegetariskt"],
         "time": "15 minuter",
         "portions": "4 portioner",
         "ingredients": [
@@ -712,7 +712,7 @@
             "Hetta upp olja i en stekpanna, klicka ut smet med en sked. Tänk på att inte ha för låg värme, då kommer plättarna att flyta ut för mycket i stekpannan. Du ska dock inte ha för hög värme heller, medelhög värme är perfekt. Stek ca 4 min på varje sida. Låt plättarna rinna av på papper.","Servera med ris!"
         ],
         "html": "peuranska-spenatplättar.php",
-        "imageURL": "../img/peuranska- spenatplättar-1200x750.webp",
+        "imageURL": "../img/peruanska- spenatplättar-1200x750.webp",
         "altText": "Vegetariska spenatplättar som serveras med ris.",
         "isFavorite": false,
         "isTikTok": false,
