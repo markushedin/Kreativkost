@@ -565,7 +565,7 @@ body {
   }
 }
 .main-footer .footer-container .footer-content .social-media-container a:hover .fa {
-  padding-top: 0rem;
+  opacity: 0.7;
 }
 .main-footer .footer-container .text_bottom {
   display: flex;
