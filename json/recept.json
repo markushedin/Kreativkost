@@ -629,5 +629,66 @@
         "isSoup": false,
         "isPasta": true,
         "isVeg": false
+    },
+    {
+        "id": 11,
+        "name": "Creamy ramen",
+        "category": ["Asiatiskt"],
+        "time": "15 minuter",
+        "portions": "1 portion", 
+        "ingredients": [
+            {
+                "quantity": "300 g",
+                "name": "spaghetti"
+            },
+            {
+                "quantity": "150 g",
+                "name": "rökt fläsk"
+            },
+            {
+                "quantity": "25 g",
+                "name": "smör"
+            },
+            {
+                "quantity": "1/2 dl",
+                "name": "vispgrädde"
+            },
+            {
+                "quantity": "1 krm",
+                "name": "salt"
+            },
+            {
+                "quantity": "2",
+                "name": "finhackade vitlöksklyftor"
+            },
+            {
+                "quantity": "3 dl",
+                "name": "riven ost"
+            },
+            {
+                "quantity": "2 krm",
+                "name": "svartpeppar"
+            },
+            {
+                "quantity": "4 st",
+                "name": "äggulor"
+            }
+            
+        ],
+        "steps": [
+            "Koka spaghettin enligt förpackningen.",
+            "Skär fläsket i små tärningar. Stek fläsket knaprigt i smör i en stekpanna.",
+            "Vispa ihop grädde, salt, vitlök och hälften av osten.",
+            "Rör ner fläsk och ostblandningen i den kokta spaghettin och rör kraftigt till en krämig konsistens. Strö över resten av osten och peppar. Servera pasta carbonara med en äggula."
+        ],
+        "html": "carbonara.php",
+        "imageURL": "../img/carbonara-1200x750.webp",
+        "altText": "En skål med pasta carbonara och en äggula på toppen",
+        "isFavorite": false,
+        "isTikTok": false,
+        "isSoup": false,
+        "isPasta": true,
+        "isVeg": false
     }
+    
 ]
