@@ -25,7 +25,8 @@
     margin: 5px auto;
     cursor: pointer;
     position: relative;
-    background: $neutrals-light url('/img/') 0 0 no-repeat;
+    background: $neutrals-light url('img/share_box.svg') 0 0 no-repeat;
+    z-index: 500;
     line-height: 100;
     overflow: hidden;
   }
