@@ -4,7 +4,8 @@
     max-width: $max-width;
     display: flex;
     margin: auto;
-    padding: $x-small-padding;
+    padding: 1rem;
+   
     main{
         h1{
             margin-bottom: 1rem;
@@ -15,9 +16,10 @@
             }
         }
         h2{
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem;
             @media (min-width: $desktop-bp){
-                margin-bottom: 0.75rem;
+                margin-bottom: 0.5rem;
+
             }
         }
         p{

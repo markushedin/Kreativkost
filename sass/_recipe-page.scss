@@ -21,6 +21,10 @@
     .img-pa2 {
         width: 100%;
         height: auto;
+        @media (min-width: $desktop-bp) {
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
     }
 }
 .recept {
@@ -28,6 +32,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     figure {
         position: relative;
         margin-bottom: 13rem;

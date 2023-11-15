@@ -4,10 +4,30 @@ const favoriteRecipes = document.querySelector('[favoriteRecipes]');
 const tikTokRecipes = document.querySelector('[tikTokRecipes]');
 const soupRecipes = document.querySelector('[soupRecipes]');
 const pastaRecipes = document.querySelector('[pastaRecipes]');
+const pizzaRecipes = document.querySelector('[pizzaRecipes]');
 const vegRecipes = document.querySelector('[vegRecipes]');
 const searchFilteredRecipes = document.querySelector('[searchFilteredRecipes]');
 const searchInput = document.querySelector('[data-search]');
 const allChips = document.querySelectorAll('.chip');
+
+//IMG CARD
+
+//const articleNew = document.createElement('article');
+//articleNew.classList.add('card');
+
+//const h4New = document.createElement('h4');
+//h4New.textContent = 'hej på dig';
+
+//articleNew.append(h4New);
+//container.append(articleNew);
+
+//window.addEventListener('resize', updateText);
+  //updateText();
+  //function updateText(){
+    //const data = document.querySelector('#data');
+    //data.textContent = `Width: ${window.innerWidth}, Ratio: ${window.devicePixelRatio}`;
+  //}
+//
 
 let recipes = [];
 const filters = {
@@ -57,6 +77,9 @@ loadData = () => {
             }
             if(recipe.isPasta) {
                 pastaRecipes.append(recipe.element.cloneNode(true));
+            }
+            if(recipe.isPizza) {
+               pizzaRecipes.append(recipe.element.cloneNode(true));
             }
             if(recipe.isVeg) {
                 vegRecipes.append(recipe.element.cloneNode(true));

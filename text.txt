@@ -1,10 +1,10 @@
 To do
 - Lägg till container i js
-- Lägg till nya bilder
 - Hover effekt på instagram ikonen
 - Lägg in fler recept
-- Styla cookie popup
 - Lägg till dela funktionen
+- Gör A/B test
+- Lägg till så bilderna ändrar format
 
 
 ----
@@ -17,6 +17,11 @@ FAQ
 Detta har jag optimerat:
 
 Frågor till gruppen
-- Ska vi bara ta bort sök funktionen?
-- Har du gjort en facebook sida?
+
 ----
+
+Fråga jonte
+- 
+
+Fråga julia
+- 
