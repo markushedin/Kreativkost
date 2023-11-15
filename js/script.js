@@ -10,6 +10,12 @@ const searchFilteredRecipes = document.querySelector('[searchFilteredRecipes]');
 const searchInput = document.querySelector('[data-search]');
 const allChips = document.querySelectorAll('.chip');
 
+const shareBtn = document.querySelector('.share-btn');
+const shareOptions = document.querySelector('.share-options');
+
+
+
+ 
 //IMG CARD
 
 //const articleNew = document.createElement('article');

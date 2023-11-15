@@ -948,7 +948,7 @@ body {
     transform: translate(-50%, -50%);
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 580px) {
   .popup-content {
     min-width: 20%;
   }
@@ -966,10 +966,10 @@ body {
 #only-necessary-button {
   padding: 1rem;
   margin-bottom: 16px;
-  min-width: 170px;
+  width: 100%;
   display: flex;
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: 500;
   font-family: "Satoshi";
   border: 2px solid #111113;
   border-radius: 5px;
@@ -981,10 +981,10 @@ body {
 #ok-button {
   padding: 1rem;
   margin-bottom: 16px;
-  min-width: 170px;
+  width: 100%;
   display: flex;
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: 500;
   font-family: "Satoshi";
   border: 2px solid #111113;
   border-radius: 5px;
