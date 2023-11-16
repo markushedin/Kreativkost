@@ -26,4 +26,4 @@ Fråga jonte
 Fråga julia
 - Hur gör vi för att ändra storlek på bilderna
 - Varför ser bilderna konstiga ut när vi först laddar upp sidan?
-- 
+- Om instagram ikonen till footern

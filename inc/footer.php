@@ -12,7 +12,7 @@
                     <p class="footer-text smb">Följ oss</p>
                     <a href="https://www.instagram.com/kreativ_kost">
                         <i class="fa fa-instagram">
-                            <img src="/img/instagram.png" alt="">
+                            
                         </i>
                     </a>
                 </div>
