@@ -11,6 +11,7 @@ const searchFilteredRecipes = document.querySelector('[searchFilteredRecipes]');
 const searchInput = document.querySelector('[data-search]');
 const allChips = document.querySelectorAll('.chip');
 
+
 //IMG CARD
 
 //const articleNew = document.createElement('article');
@@ -159,6 +160,11 @@ const filterRecipes = () => {
     });
 }
 
+shareBtn.addEventListener('click', () => {
+    shareOptions.classList.toggle('active');
+ 
+})
+ 
 
 // //fetchData innehåller data från fetch om ni vill göra något med denna
 // //let fetchedData = [];

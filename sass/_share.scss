@@ -1,80 +1,80 @@
 @import 'variables';
  
  
-.share-container{
-  position: fixed;
-  right: 0;
- }
-.share-btn {
-   
-    border: none;
-    background: #000000;
-    color: #ffffff;
-    border-radius: 50%;
-    width: 3.75rem;
-    height: 3.75rem;
-    font-size: 1.875rem;
-    padding-top: 0.156rem;
-    padding-right: 0.188rem;
-    margin-right: 2rem;
-    margin: 0.625rem;
-    cursor: pointer;
-    z-index: 2;
-   
-  }
- 
-  .share-options {
-    width: auto;
-    height: auto;
-    transform-origin: top left;
-    transform: scale(0);
-    border-radius: 1.25rem;
-    background: black;
-    color: #fff;
-    padding:  0.625rem;
-    //font-family: 'roboto';
-    transition: 0.1s;
-    transition-delay: 0.1s;
-  }
- 
-  .share-options.active {
-    transform: scale(1);
-    transition-delay: 0s;
-    right: 0;
-  }
- 
-  .social-media {
-    opacity: 0;
-    transition: 0.5s;
-    transition-delay: 0s;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin:  0.625rem 0;
-  }
- 
-  .social-media-btn {
-    border: none;
-    width: 3.125rem;
-    height: 3.125rem;
-    border-radius: 50%;
-    background: #000;
-    color: #fff;
-    line-height: 3.125rem;
-    font-size: 1.563;
-    cursor: pointer;
-    margin: 0.313rem;
-    text-align: center;
-  }
- 
-  .share-options.active .social-media {
-    background-color: black;
-    opacity: 1;
-    transition: 0.1s;
-    transition-delay: 0.1s;
-   
+.share_box {
+  color: $neutrals-light;
+  width: 50px;
+  text-align: center;
+  margin: 1rem;
+  position: absolute;
+  z-index: 998;
+  .line {
+    position: absolute;
+    width: 1px;
+    height: 220px;
+    background: $neutrals-dark;
+    left: 29px;
+    top: 65px;
   }
 
-    
-   
-   
+  .share, a {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 5px auto;
+    cursor: pointer;
+    position: relative;
+    background: $neutrals-light url('img/share_box.svg') 0 0 no-repeat;
+    z-index: 500;
+    line-height: 100;
+    overflow: hidden;
+  }
+
+  .share {
+    background: $neutrals-dark url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABfUlEQVRYR+2XQYoCMRBFJ268h95DG9w7zgFm5QEUD6CCWxe6F3RmL3oABb2BN9BjuGt/SdJkmk5SrRUEGaEQNN3/paryu1p9RP6kadqGRA+RICqIA2KslDqStIqpD/EF7t91aAwBMYkGoHe+0bt27TOJCbCDaiuQ4X1MgCvEq6ESvx8Aav+NXY8Q9dDu8f9aLAMlhQ3b803oEb5A5YToRDmGAWEymh8SxromvvqIT+07ZECjh42IK8yo/31J1gMFlkkmMjek0sIG8A4QsMwlljQKuppqnKWau+P8OsW0TPs6EeEsAwDgWCatFxW2AXiWiWZ4NM2+66gELwfgluCsm+5XMhOmCbf2kQwIiIKYYziF6MABsdLHsJYDEwGxjYgsk55iiQahrMxyRjTGb6IgpTtbO6IYSGkAUwYuSPSpOABCj+MvR1PLTsUeEN+hen4gyd+9JMj/VBzv1Yz5lJWbigt6gV5KQxYv34Q2CLLgs3jZY+g6a3oqti3+z1R8AxnkwcUTSGj0AAAAAElFTkSuQmCC) 12px center no-repeat;
+  }
+
+  a:nth-of-type(1) {
+    background-position: -115px center;
+  }
+
+  a:nth-of-type(2) {
+    background-position: -48px center;
+  }
+
+  a:nth-of-type(3) {
+    background-position: 17px center;
+  }
+
+  .line {
+    height: 0;
+  }
+
+  a {
+    -webkit-transform: scale(0) translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 0.0001s linear, background 0.0001s ease;
+  }
+
+  // animation
+  &:hover i {
+    height: 190px;
+    -webkit-transition: height 0.0001s linear;
+    -webkit-transition-duration: 0.3s;
+  }
+
+  &:hover a {
+    background-color: #FFFF33;
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+    -webkit-transition-delay: 0.1s, 0.0001s;
+    -webkit-transition-duration: 0.3s, 0.4s;
+  }
+
+  &:hover a:nth-of-type(2) {
+    -webkit-transition-delay: 0.2s, 0.0001s;
+  }
+
+  &:hover a:nth-of-type(3) {
+    -webkit-transition-delay: 0.3s, 0.001s;
+  }
+}
