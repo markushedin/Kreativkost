@@ -5,6 +5,7 @@ const tikTokRecipes = document.querySelector('[tikTokRecipes]');
 const soupRecipes = document.querySelector('[soupRecipes]');
 const pastaRecipes = document.querySelector('[pastaRecipes]');
 const pizzaRecipes = document.querySelector('[pizzaRecipes]');
+const asiatisktRecipes = document.querySelector('[asiatisktRecipes]');
 const vegRecipes = document.querySelector('[vegRecipes]');
 const searchFilteredRecipes = document.querySelector('[searchFilteredRecipes]');
 const searchInput = document.querySelector('[data-search]');
