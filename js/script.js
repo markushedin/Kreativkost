@@ -164,7 +164,17 @@ shareBtn.addEventListener('click', () => {
     shareOptions.classList.toggle('active');
  
 })
- 
+
+function shareOnInstagram() {
+    // Replace the following URL with the URL you want to share on Instagram
+    var urlToShare = "https://kreativkost.se/snabbnudlar.php#";
+  
+    // Construct the Instagram share URL
+    var instagramShareUrl = "https://www.instagram.com/share?url=" + encodeURIComponent(urlToShare);
+  
+    // Open a new window or redirect to the Instagram share URL
+    window.open(instagramShareUrl, "_blank");
+  }
 
 // //fetchData innehåller data från fetch om ni vill göra något med denna
 // //let fetchedData = [];
