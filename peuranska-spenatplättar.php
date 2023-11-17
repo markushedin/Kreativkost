@@ -1,8 +1,9 @@
 <?php include("inc/header.php");?>
 
+
     <main class="container no-padding">
         <img src="../img/kavel.png" class="img-pa" alt="Dekorativ illustration i form av en kökskavel">
-        <div class="recept" id="6">
+        <div class="recept" id="12">
             <!--Content will be here :)-->
         </div>
         <figure class="illustration-container">

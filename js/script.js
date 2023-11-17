@@ -4,10 +4,32 @@ const favoriteRecipes = document.querySelector('[favoriteRecipes]');
 const tikTokRecipes = document.querySelector('[tikTokRecipes]');
 const soupRecipes = document.querySelector('[soupRecipes]');
 const pastaRecipes = document.querySelector('[pastaRecipes]');
+const pizzaRecipes = document.querySelector('[pizzaRecipes]');
+const asiatisktRecipes = document.querySelector('[asiatisktRecipes]');
 const vegRecipes = document.querySelector('[vegRecipes]');
 const searchFilteredRecipes = document.querySelector('[searchFilteredRecipes]');
 const searchInput = document.querySelector('[data-search]');
 const allChips = document.querySelectorAll('.chip');
+
+
+//IMG CARD
+
+//const articleNew = document.createElement('article');
+//articleNew.classList.add('card');
+
+//const h4New = document.createElement('h4');
+//h4New.textContent = 'hej på dig';
+
+//articleNew.append(h4New);
+//container.append(articleNew);
+
+//window.addEventListener('resize', updateText);
+  //updateText();
+  //function updateText(){
+    //const data = document.querySelector('#data');
+    //data.textContent = `Width: ${window.innerWidth}, Ratio: ${window.devicePixelRatio}`;
+  //}
+//
 
 let recipes = [];
 const filters = {
@@ -57,6 +79,9 @@ loadData = () => {
             }
             if(recipe.isPasta) {
                 pastaRecipes.append(recipe.element.cloneNode(true));
+            }
+            if(recipe.isPizza) {
+               pizzaRecipes.append(recipe.element.cloneNode(true));
             }
             if(recipe.isVeg) {
                 vegRecipes.append(recipe.element.cloneNode(true));
@@ -135,6 +160,21 @@ const filterRecipes = () => {
     });
 }
 
+shareBtn.addEventListener('click', () => {
+    shareOptions.classList.toggle('active');
+ 
+})
+
+function shareOnInstagram() {
+    // Replace the following URL with the URL you want to share on Instagram
+    var urlToShare = "https://kreativkost.se/snabbnudlar.php#";
+  
+    // Construct the Instagram share URL
+    var instagramShareUrl = "https://www.instagram.com/share?url=" + encodeURIComponent(urlToShare);
+  
+    // Open a new window or redirect to the Instagram share URL
+    window.open(instagramShareUrl, "_blank");
+  }
 
 // //fetchData innehåller data från fetch om ni vill göra något med denna
 // //let fetchedData = [];

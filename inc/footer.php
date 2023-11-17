@@ -11,7 +11,9 @@
                 <div class="social-media-container mb">
                     <p class="footer-text smb">Följ oss</p>
                     <a href="https://www.instagram.com/kreativ_kost">
-                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-instagram">
+                            
+                        </i>
                     </a>
                 </div>
             </section>
@@ -35,7 +37,7 @@
                 </label>
             </div>
             <button id="only-necessary-button" style="display: none;">Bara nödvändiga</button>
-            <button id="ok-button" style="display: none;">Ok</button>
+            <button id="ok-button" style="display: none;">Acceptera alla</button>
             <div class="b">
                 <a href="privacy-policy.php" class="integrity">Integritetspolicy</a>
             </div>

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Fransk linssoppa",
-        "category": ["Soppa"], 
+        "category": ["Soppa","Vegetariskt"], 
         "time": "45 minuter",
         "portions": "6 portioner",
         "ingredients": [
@@ -85,7 +85,7 @@
     {
         "id": 2,
         "name": "Tomatsoppa med fetaost",
-        "category": ["Soppa"],
+        "category": ["Soppa", "Vegetariskt"],
         "time": "30 minuter",
         "portions": "4 portioner",
         "ingredients": [
@@ -151,7 +151,7 @@
     {
         "id": 3,
         "name": "Pizza pannkakor",
-        "category": ["Pizza"],
+        "category": ["Pizza", "TikTok","Vegetariskt"],
         "time": "25 minuter",
         "portions": "2 portioner",
         "ingredients": [
@@ -204,16 +204,17 @@
         "html": "pancake-pizza.php",
         "imageURL": "../img/pancake-pizza-1200x750.webp",
         "altText": "Pizza gjort på pannkakor",
-        "isFavorite": true,
+        "isFavorite": false,
         "isTikTok": false,
         "isSoup": false,
         "isPasta": false,
-        "isVeg": true
+        "isVeg": true,
+        "isPizza": false
     },
     {
         "id": 4,
         "name": "Snabbnudlar med stekt ägg",
-        "category": ["Asiatiskt"],
+        "category": ["Asiatiskt","Vegetariskt"],
         "time": "15 minuter",
         "portions": "4 portioner",
         "ingredients": [
@@ -346,7 +347,7 @@
     {
         "id": 6,
         "name": "Marry Me Chicken",
-        "category": ["Kyckling"],
+        "category": ["Kyckling", "TikTok"],
         "time": "35 minuter",
         "portions": "2 portioner",
         "ingredients": [
@@ -413,7 +414,7 @@
     {
         "id": 7,
         "name": "Ugnsbakad pasta med feta",
-        "category": ["Pasta", "Vegetariskt"],
+        "category": ["Pasta", "Vegetariskt", "TikTok"],
         "time": "1 timme", 
         "portions": "4 portioner",
         "ingredients": [
@@ -627,6 +628,96 @@
         "isTikTok": false,
         "isSoup": false,
         "isPasta": true,
+        "isVeg": false
+    },
+    {
+        "id": 11,
+        "name": "Creamy ramen",
+        "category": ["Asiatiskt", "TikTok"],
+        "time": "15 minuter",
+        "portions": "1 portion", 
+        "ingredients": [
+            {
+                "quantity": "1 paket",
+                "name": "ramen nudlar"
+            },
+            {
+                "quantity": "1",
+                "name": "ägg"
+            },
+            {
+                "quantity": "2 msk",
+                "name": "majonäs"
+            },
+            {
+                "quantity": "1",
+                "name": "vitlöksklyfta"
+            }
+            
+        ],
+        "steps": [
+            "Koka nudlarna enligt förpackningen.",
+            "Medan nudlarna kokar, tillsätt ägget och majonnäsen i en skål. Riv vitlöksklyftan ovanpå och vispa sedan ihop tills det är väl blandat.",
+            "När nudlarna är kokta, häll det kokande vattnet från grytan i din skål och vispa. Tillsätt sedan nudlarna och rör om."
+        ],
+        "html": "creamy-ramen.php",
+        "imageURL": "../img/creamy-ramen-1200x750.webp",
+        "altText": "En skål med Ramennudlar och ägg",
+        "isFavorite": false,
+        "isTikTok": false,
+        "isSoup": false,
+        "isPasta": false,
+        "isVeg": false
+    },
+    {
+        "id": 12,
+        "name": "Peuranska spenatplättar",
+        "category": ["Vegetariskt"],
+        "time": "1 timme",
+        "portions": "4 portion", 
+        "ingredients": [
+            {
+                "quantity": "100 g",
+                "name": "färsk spenat"
+            },
+            {
+                "quantity": "2-3 st",
+                "name": "salladslökar"
+            },
+            {
+                "quantity": "1",
+                "name": "tomater"
+            },
+            {
+                "quantity": "3",
+                "name": "ägg"
+            },
+            {
+                "quantity": "4 msk",
+                "name": "vetemjöl"
+            },
+            {
+                "quantity": "Salt & peppar",
+                "name": ""
+            },
+            {
+                "quantity": "Olja till stekning",
+                "name": ""
+            }
+            
+        ],
+        "steps": [
+            "Skölj spenaten och hacka grovt. Klappa spenaten torr med hushållspapper så slipper du massa vätska i smeten. Hacka tomat i små tärningar och låt vätska rinna av, hacka lök fint. Lägg spenat, tomat och lök i en bunke",
+            "Knäck äggen i en skål och vispa lite lätt med en gaffel och häll sedan över grönsakerna. Tillsätt mjöl, salt och peppar. Blanda ihop till en smet. Smeten är ganska lös i konsistensen. Så fort du har blandat ihop smeten börjar du direkt steka plättarna eftersom spenaten vätskar sig och bör inte stå länge.",
+            "Hetta upp olja i en stekpanna, klicka ut smet med en sked. Tänk på att inte ha för låg värme, då kommer plättarna att flyta ut för mycket i stekpannan. Du ska dock inte ha för hög värme heller, medelhög värme är perfekt. Stek ca 4 min på varje sida. Låt plättarna rinna av på papper.","Servera med ris!"
+        ],
+        "html": "peuranska-spenatplättar.php",
+        "imageURL": "../img/peruanska- spenatplättar-1200x750.webp",
+        "altText": "Vegetariska spenatplättar som serveras med ris.",
+        "isFavorite": true,
+        "isTikTok": false,
+        "isSoup": false,
+        "isPasta": false,
         "isVeg": false
     }
 ]

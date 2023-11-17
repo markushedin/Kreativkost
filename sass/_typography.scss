@@ -33,6 +33,11 @@
         text-align: left;
         margin-top: $x-small-padding;
     }
+    &.policy {
+        max-width: 100%;
+        text-align: left;
+        margin-top: $x-small-padding;
+    }
     &.mb {
         margin-bottom: 2rem;
         @media (min-width: $desktop-bp) {
@@ -63,8 +68,9 @@
 }
 .small-headline { //h3
     font-size: $h3m;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 145%;
+    
     @media (min-width: $desktop-bp){
         font-size: $h3d;
         font-weight: 500;

@@ -2,10 +2,9 @@ To do
 - Lägg till container i js
 - Hover effekt på instagram ikonen
 - Lägg in fler recept
-- Styla cookie popup
 - Lägg till dela funktionen
-- Lägg till peters uppdaterade PHP kod
 - Gör A/B test
+- Lägg till så bilderna ändrar format
 
 
 ----
@@ -18,11 +17,14 @@ FAQ
 Detta har jag optimerat:
 
 Frågor till gruppen
-
+- Byta CTA-färgen?
+- Ska vi lägga ut vår sida i gruppen och säga att det är skolprojekt så vi får mer trafik?
 ----
 
 Fråga jonte
 - 
 
 Fråga julia
-- 
+- Hur gör vi för att ändra storlek på bilderna
+- Varför ser bilderna konstiga ut när vi först laddar upp sidan?
+- Om instagram ikonen till footern

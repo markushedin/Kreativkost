@@ -29,10 +29,12 @@
         }
         a{
             text-decoration: none;
+            cursor: auto;
         }
         .bild-box{
             height: 250px;
             overflow: hidden;
+            cursor: pointer;
             img{
                 width: 100%;
                 height: 100%;
@@ -60,9 +62,9 @@
             p, h3 {
                 margin-bottom: $x-small-padding;
             }
-            h4{
-
-            }
+           .btn-text{
+            cursor: pointer;
+           }
         }
         .gradient{
             position: absolute;
