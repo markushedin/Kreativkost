@@ -5,7 +5,9 @@ To do
 - Lägg till dela funktionen
 - Gör A/B test
 - Lägg till så bilderna ändrar format
-
+- Byta CTA-färgen?
+- Ta bort "Filterande recept"
+- Ta bort underrubrikerna på startsidan
 
 ----
 
@@ -16,9 +18,7 @@ FAQ
 
 Detta har jag optimerat:
 
-Frågor till gruppen
-- Byta CTA-färgen?
-- Ska vi lägga ut vår sida i gruppen och säga att det är skolprojekt så vi får mer trafik?
+
 ----
 
 Fråga jonte
