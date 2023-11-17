@@ -23,14 +23,14 @@
             &:hover {
                 + label {
                     background-color: $cta;
-                    color: $neutrals-light;
+                    color: $neutrals-dark;
                     
                 }
              }
             &:checked {
                 + label {
                     background-color: $cta;
-                    color: $neutrals-light;
+                    color: $neutrals-dark;
                 }
              }
         }

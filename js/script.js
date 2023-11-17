@@ -47,6 +47,9 @@ const generateRecipeCard = (recipe) => {
     header.textContent = recipe.name;
     cat.textContent = recipe.category;
     img.setAttribute('src', recipe.imageURL);
+    console.log(recipe.img400);
+    img.setAttribute('srcset', `${recipe.img400} 400w, ${recipe.img800} 800w,  ${recipe.imageURL} 1200w`);
+    img.setAttribute('sizes', '(min-width: 400px) 400px');
     img.setAttribute('alt', recipe.altText);
     return card;
 }
@@ -86,6 +89,7 @@ loadData = () => {
             if(recipe.isVeg) {
                 vegRecipes.append(recipe.element.cloneNode(true));
             }
+          
         })
     })
 .catch(errorMsg => console.log(errorMsg));
@@ -129,6 +133,7 @@ const showFilteredRecipes = () => {
     soupRecipes.parentNode.classList.add("hidden");
     pastaRecipes.parentNode.classList.add("hidden");
     vegRecipes.parentNode.classList.add("hidden");
+  
     searchFilteredRecipes.parentNode.classList.remove("hidden");
 }
 
@@ -138,6 +143,7 @@ const hideFilteredRecipes = () => {
     soupRecipes.parentNode.classList.remove("hidden");
     pastaRecipes.parentNode.classList.remove("hidden");
     vegRecipes.parentNode.classList.remove("hidden");
+
     searchFilteredRecipes.parentNode.classList.add("hidden");
 }
 

@@ -76,7 +76,7 @@ include("inc/header.php");
                 </article>
             </section>
             <section class="recipes-cards hidden">
-                <h3 class="small-headline mb">Filtrerade recept</h3>
+                <!-- <h3 class="small-headline mb">Filtrerade recept</h3> -->
                 <article searchFilteredRecipes class="cards-flexbox">
                 </article>
             </section>
@@ -90,7 +90,7 @@ include("inc/header.php");
                         <div class="card-text">
                             <p data-cat class="visually-hidden"></p>
                             <h4 data-header class="card-headline mb"></h4>
-                            <button class="btn-text">Gå till receptet →</button>
+                            <button class="btn-text">Gå till receptet</button>
                         </div>
                         <!-- <div class="gradient"></div> -->
                     </a>

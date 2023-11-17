@@ -24,6 +24,8 @@ const figureGenerator = (item) => {
     let img = document.createElement('img');
     //fetches the img from json
     img.setAttribute('src',item.imageURL);
+    img.setAttribute('srcset', `${item.img400} 400w, ${item.img800} 800w,  ${item.imageURL} 1200w`);
+    // img.setAttribute('sizes', '(min-width: 400px) 400px');
     //fetches the alt text from json
     img.setAttribute('alt', item.altText);
     

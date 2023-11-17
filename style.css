@@ -224,7 +224,7 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: #A654A6;
+  background-color: #FF85FF;
   text-decoration: none;
   color: #fafafa;
   font-weight: 500;
@@ -237,7 +237,7 @@ body {
   font-size: 1.2rem;
 }
 .btn:hover {
-  background-color: #A654A6;
+  background-color: #FF85FF;
 }
 
 .btn-text {
@@ -246,7 +246,7 @@ body {
   background-color: transparent;
   border: none;
   font-weight: 700;
-  color: #A654A6;
+  color: #FF85FF;
 }
 
 .recipes-cards {
@@ -313,6 +313,22 @@ body {
 }
 .recipes-cards .card .card-text .btn-text {
   cursor: pointer;
+  color: #111113;
+  transition: 0.1s ease-in-out;
+  position: relative;
+}
+.recipes-cards .card .card-text .btn-text:after {
+  content: "";
+  position: absolute;
+  background-color: #111113;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -2px;
+  transition: 0.3s;
+}
+.recipes-cards .card .card-text .btn-text:hover:after {
+  width: 100%;
 }
 .recipes-cards .card .gradient {
   position: absolute;
@@ -555,6 +571,7 @@ body {
 }
 .main-footer .footer-container .footer-content .social-media-container a .fa {
   margin-bottom: 1.75rem;
+  font-family: "FontAwesome";
   font-size: 3rem;
   color: #fafafa;
   transition: 0.1s ease-in-out;
@@ -718,12 +735,12 @@ body {
   display: none;
 }
 #categorys .chip[type=checkbox]:hover + label {
-  background-color: #A654A6;
-  color: #fafafa;
+  background-color: #FF85FF;
+  color: #111113;
 }
 #categorys .chip[type=checkbox]:checked + label {
-  background-color: #A654A6;
-  color: #fafafa;
+  background-color: #FF85FF;
+  color: #111113;
 }
 
 .img-pa {
@@ -873,7 +890,7 @@ body {
   background-color: #fafafa;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #A654A6;
+  color: #FF85FF;
   margin-bottom: 1rem;
 }
 .recept .steps-container ul li {

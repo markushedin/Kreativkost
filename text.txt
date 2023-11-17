@@ -1,13 +1,7 @@
 To do
 - Lägg till container i js
-- Hover effekt på instagram ikonen
 - Lägg in fler recept
-- Lägg till dela funktionen
 - Gör A/B test
-- Lägg till så bilderna ändrar format
-- Byta CTA-färgen?
-- Ta bort "Filterande recept"
-- Ta bort underrubrikerna på startsidan
 
 ----
 
@@ -24,7 +18,4 @@ Detta har jag optimerat:
 Fråga jonte
 - 
 
-Fråga julia
-- Hur gör vi för att ändra storlek på bilderna
-- Varför ser bilderna konstiga ut när vi först laddar upp sidan?
-- Om instagram ikonen till footern
+Fråga juliaxx
