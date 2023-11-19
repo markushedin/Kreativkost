@@ -1,6 +1,6 @@
 
 <?php
-$pagetitle = "Detta är startsidan.";
+$pagetitle = "Kreativ Kost";
 include("inc/header.php");
  ?>
 
