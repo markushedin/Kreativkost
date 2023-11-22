@@ -37,6 +37,24 @@ const filters = {
     search: ""
 }
 
+
+function shareOnLink() {
+    if (navigator.share) {
+      navigator.share({
+        title: document.title,
+        text: 'Check out this page:',
+        url: window.location.href
+      })
+        .then(() => console.log('Shared successfully'))
+        .catch((error) => console.error('Error sharing:', error));
+    } else {
+      // Fallback for browsers that do not support Web Share API
+      // You can implement your custom sharing logic here
+      console.log('Web Share API not supported. Implement your custom sharing logic.');
+    }
+  }
+
+
 const generateRecipeCard = (recipe) => {
     const card = recipeTemplate.content.cloneNode(true).children[0];
     const header = card.querySelector('[data-header]');
