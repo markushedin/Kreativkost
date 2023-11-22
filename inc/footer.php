@@ -1,9 +1,11 @@
 <footer class="main-footer">
         <div class="footer-container">
             <section class="footer-content">
+            <a class="logo" href="/index.php">
                 <figure>
                     <img class="footer-logotype" src="/img/kreativ-kost-logo.png" alt="Kreativ Kost logotyp, en skål med en sked över samt namnet till höger">
                 </figure>
+            </a>
                 <div class="p-box">
                     <p class="footer-text">Skolprojekt av Jennie, Aim och Markus</p>
                     <p class="footer-text mb">Digital Design @ Brobygrafiska 2022</p>

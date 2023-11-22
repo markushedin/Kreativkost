@@ -1211,4 +1211,10 @@ input:checked + .slider:before {
 }
 .share_box:hover a:nth-of-type(3) {
   -webkit-transition-delay: 0.3s, 0.001s;
+}
+.share_box .link {
+  transition: 0.2s ease-in-out;
+}
+.share_box .link:hover {
+  background-color: #54A654;
 }/*# sourceMappingURL=style.css.map */

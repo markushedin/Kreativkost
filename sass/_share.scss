@@ -37,12 +37,16 @@
     background: $neutrals-dark url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABfUlEQVRYR+2XQYoCMRBFJ268h95DG9w7zgFm5QEUD6CCWxe6F3RmL3oABb2BN9BjuGt/SdJkmk5SrRUEGaEQNN3/paryu1p9RP6kadqGRA+RICqIA2KslDqStIqpD/EF7t91aAwBMYkGoHe+0bt27TOJCbCDaiuQ4X1MgCvEq6ESvx8Aav+NXY8Q9dDu8f9aLAMlhQ3b803oEb5A5YToRDmGAWEymh8SxromvvqIT+07ZECjh42IK8yo/31J1gMFlkkmMjek0sIG8A4QsMwlljQKuppqnKWau+P8OsW0TPs6EeEsAwDgWCatFxW2AXiWiWZ4NM2+66gELwfgluCsm+5XMhOmCbf2kQwIiIKYYziF6MABsdLHsJYDEwGxjYgsk55iiQahrMxyRjTGb6IgpTtbO6IYSGkAUwYuSPSpOABCj+MvR1PLTsUeEN+hen4gyd+9JMj/VBzv1Yz5lJWbigt6gV5KQxYv34Q2CLLgs3jZY+g6a3oqti3+z1R8AxnkwcUTSGj0AAAAAElFTkSuQmCC) 12px center no-repeat;
     width: 60px;
     height: 60px;
+    
   }
+
 
   a:nth-of-type(1) {
     background-position: -105px center;
     margin-left: 0.2rem;
+    
   }
+ 
 
   a:nth-of-type(2) {
     background-position: -46px center;
@@ -84,4 +88,10 @@
   &:hover a:nth-of-type(3) {
     -webkit-transition-delay: 0.3s, 0.001s;
   }
+  .link{
+    transition: 0.2s ease-in-out; 
+  }
+  .link:hover{
+    background-color: $secondary-color;
+} 
 }

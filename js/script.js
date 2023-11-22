@@ -37,7 +37,6 @@ const filters = {
     search: ""
 }
 
-
 function shareOnLink() {
     if (navigator.share) {
       navigator.share({
@@ -53,7 +52,6 @@ function shareOnLink() {
       console.log('Web Share API not supported. Implement your custom sharing logic.');
     }
   }
-
 
 const generateRecipeCard = (recipe) => {
     const card = recipeTemplate.content.cloneNode(true).children[0];
@@ -89,8 +87,8 @@ loadData = () => {
     .then(r => {
         recipes = r;
         r.forEach(recipe => {
-            if(recipe.isFavorite) {
-                favoriteRecipes.append(recipe.element.cloneNode(true));
+            if(recipe.isAsiatiskt) {
+                asiatisktRecipes.append(recipe.element.cloneNode(true));
             }
             if(recipe.isTikTok) {
                 tikTokRecipes.append(recipe.element.cloneNode(true));
@@ -146,7 +144,7 @@ if(searchInput){
 };
 
 const showFilteredRecipes = () => {
-    favoriteRecipes.parentNode.classList.add("hidden");
+    asiatisktRecipes.parentNode.classList.add("hidden");
     tikTokRecipes.parentNode.classList.add("hidden");
     soupRecipes.parentNode.classList.add("hidden");
     pastaRecipes.parentNode.classList.add("hidden");
@@ -156,7 +154,7 @@ const showFilteredRecipes = () => {
 }
 
 const hideFilteredRecipes = () => {
-    favoriteRecipes.parentNode.classList.remove("hidden");
+    asiatisktRecipes.parentNode.classList.remove("hidden");
     tikTokRecipes.parentNode.classList.remove("hidden");
     soupRecipes.parentNode.classList.remove("hidden");
     pastaRecipes.parentNode.classList.remove("hidden");
