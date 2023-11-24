@@ -1,6 +1,7 @@
 <?php include("inc/header.php");?>
 
     <main class="container no-padding">
+    <?php include("inc/share.php");?>
         <img src="../img/kavel.png" class="img-pa" alt="Dekorativ illustration i form av en kökskavel">
         <div class="recept" id="9">
             <!--Content will be here :)-->

@@ -286,7 +286,8 @@
         "isTikTok": false,
         "isSoup": false,
         "isPasta": false,
-        "isVeg": true
+        "isVeg": true,
+        "isAsiatiskt": true
     },
     {
         "id": 5,
@@ -355,7 +356,8 @@
         "isTikTok": false,
         "isSoup": false,
         "isPasta": false,
-        "isVeg": false
+        "isVeg": false,
+        "isAsiatiskt": true
     },
     {
         "id": 6,
@@ -692,7 +694,8 @@
         "isTikTok": false,
         "isSoup": false,
         "isPasta": false,
-        "isVeg": false
+        "isVeg": false,
+        "isAsiatiskt": true
     },
     {
         "id": 12,

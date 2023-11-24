@@ -52,8 +52,9 @@ include("inc/header.php");
                 <div class="popular-cards" data-user-cards></div>
             </section>
             <section class="recipes-cards">
-                <h3 class="small-headline mb">Våra tre favoriter</h3>
-                <div favoriteRecipes class="cards-flexbox"></div>
+                <h3 class="small-headline mb">Asiatiskt</h3>
+                
+                <div asiatisktRecipes class="cards-flexbox"></div>
             </section>
             <section class="recipes-cards">
                 <h3 class="small-headline mb">Recept från Tik-Tok</h3>

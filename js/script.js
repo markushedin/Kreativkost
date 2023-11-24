@@ -37,6 +37,22 @@ const filters = {
     search: ""
 }
 
+function shareOnLink() {
+    if (navigator.share) {
+      navigator.share({
+        title: document.title,
+        text: 'Check out this page:',
+        url: window.location.href
+      })
+        .then(() => console.log('Shared successfully'))
+        .catch((error) => console.error('Error sharing:', error));
+    } else {
+      // Fallback for browsers that do not support Web Share API
+      // You can implement your custom sharing logic here
+      console.log('Web Share API not supported. Implement your custom sharing logic.');
+    }
+  }
+
 const generateRecipeCard = (recipe) => {
     const card = recipeTemplate.content.cloneNode(true).children[0];
     const header = card.querySelector('[data-header]');
@@ -71,8 +87,8 @@ loadData = () => {
     .then(r => {
         recipes = r;
         r.forEach(recipe => {
-            if(recipe.isFavorite) {
-                favoriteRecipes.append(recipe.element.cloneNode(true));
+            if(recipe.isAsiatiskt) {
+                asiatisktRecipes.append(recipe.element.cloneNode(true));
             }
             if(recipe.isTikTok) {
                 tikTokRecipes.append(recipe.element.cloneNode(true));
@@ -128,7 +144,7 @@ if(searchInput){
 };
 
 const showFilteredRecipes = () => {
-    favoriteRecipes.parentNode.classList.add("hidden");
+    asiatisktRecipes.parentNode.classList.add("hidden");
     tikTokRecipes.parentNode.classList.add("hidden");
     soupRecipes.parentNode.classList.add("hidden");
     pastaRecipes.parentNode.classList.add("hidden");
@@ -138,7 +154,7 @@ const showFilteredRecipes = () => {
 }
 
 const hideFilteredRecipes = () => {
-    favoriteRecipes.parentNode.classList.remove("hidden");
+    asiatisktRecipes.parentNode.classList.remove("hidden");
     tikTokRecipes.parentNode.classList.remove("hidden");
     soupRecipes.parentNode.classList.remove("hidden");
     pastaRecipes.parentNode.classList.remove("hidden");
@@ -171,16 +187,7 @@ shareBtn.addEventListener('click', () => {
  
 })
 
-function shareOnInstagram() {
-    // Replace the following URL with the URL you want to share on Instagram
-    var urlToShare = "https://kreativkost.se/snabbnudlar.php#";
-  
-    // Construct the Instagram share URL
-    var instagramShareUrl = "https://www.instagram.com/share?url=" + encodeURIComponent(urlToShare);
-  
-    // Open a new window or redirect to the Instagram share URL
-    window.open(instagramShareUrl, "_blank");
-  }
+
 
 // //fetchData innehåller data från fetch om ni vill göra något med denna
 // //let fetchedData = [];
