@@ -39,19 +39,20 @@ const filters = {
 
 function shareOnLink() {
     if (navigator.share) {
-      navigator.share({
-        title: document.title,
-        text: 'Check out this page:',
-        url: window.location.href
-      })
+        navigator.share({
+            title: document.title,
+            text: 'Check out this page:',
+            url: window.location.href
+        })
         .then(() => console.log('Shared successfully'))
         .catch((error) => console.error('Error sharing:', error));
     } else {
-      // Fallback for browsers that do not support Web Share API
-      // You can implement your custom sharing logic here
-      console.log('Web Share API not supported. Implement your custom sharing logic.');
+        // Fallback for browsers that do not support Web Share API
+        const sharePrompt = `Check out this page: ${window.location.href}`;
+        prompt('Share this link:', sharePrompt);
     }
-  }
+}
+  
 
 const generateRecipeCard = (recipe) => {
     const card = recipeTemplate.content.cloneNode(true).children[0];
@@ -186,6 +187,7 @@ shareBtn.addEventListener('click', () => {
     shareOptions.classList.toggle('active');
  
 })
+
 
 
 
