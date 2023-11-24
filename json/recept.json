@@ -749,5 +749,68 @@
         "isSoup": false,
         "isPasta": false,
         "isVeg": false
+    },
+    {
+        "id": 13,
+        "name": "Snabb pad thai",
+        "category": ["Asiatiskt"],
+        "time": "15 minuter",
+        "portions": "2 portioner", 
+        "ingredients": [
+            {
+                "quantity": "170 g",
+                "name": "snabbnudlar (2 frp)"
+            },
+            {
+                "quantity": "4 st",
+                "name": "ägg"
+            },
+            {
+                "quantity": "2 msk",
+                "name": "sesamolja"
+            },
+            {
+                "quantity": "1 st",
+                "name": "lime, finrivet skal och saft"
+            },
+            {
+                "quantity": "0.5 dl",
+                "name": "japansk soja"
+            },
+            {
+                "quantity": "hackade jordnötter",
+                "name": ""
+            },
+            {
+                "quantity": "salladslök, skivad",
+                "name": ""
+            },
+            {
+                "quantity": "röd chili, skivad",
+                "name": ""
+            },
+            {
+                "quantity": "koriander",
+                "name": ""
+            }
+
+            
+        ],
+        "steps": [
+            "Tillaga nudlarna i buljongen som medföljer enligt anvisningen på förpackningen.",
+            "Vispa upp äggen lätt. Hetta upp sesamoljan i en stekpanna. Lägg i nudlarna och häll i äggen. Rör runt ett par min tills äggen stelnat.",
+            "Blanda i limeskal (endast det gröna), limesaft och soja. Smaka ev av med mer soja eller salt. Toppa med valfria tillbehör."
+        ],
+        "html": "padthai.php",
+        "imageURL": "../img/snabb-padthai-1200x750.webp",
+        "img400": "../img/snabb-padthai-400x300.webp",
+        "img800": "../img/snabb-padthai-800x500.webp",
+        "altText": "Snabb pad thai-",
+        "isFavorite": false,
+        "isTikTok": false,
+        "isSoup": false,
+        "isPasta": false,
+        "isVeg": false,
+        "isAsiatiskt": true
     }
 ]
