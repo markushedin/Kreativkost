@@ -21,16 +21,7 @@ include("inc/header.php");
     <main class="container" id="main-content">
         <section id="search">
             <h2 class="mid-headline mb center">Vad är du sugen på?</h2>
-            <form id="search-bar" role='search' >
-                <label for='header-search'>
-                  <span class='visually-hidden'>Search</span>
-                </label>
-                <input type='search' id='header-search' placeholder="Sök efter smaskigheter..." data-search>
-                <button type='submit' id="btn-search">
-                    <span class="material-symbols-rounded">search</span>
-                  <span class='visually-hidden'>Submit Search</span>
-                </button>
-            </form>
+           
             <form class="m1b" id="categorys" action="">
                 <input class="chip" type="checkbox" id="categorySeven">
                 <label for="categorySeven">Asiatiskt</label>
@@ -52,7 +43,11 @@ include("inc/header.php");
             <section class="recipes-cards">
                 <div class="popular-cards" data-user-cards></div>
             </section>
-           
+            <section class="recipes-cards">
+                <h3 class="small-headline mb">Asiatiskt</h3>
+                
+                <div asiatisktRecipes class="cards-flexbox"></div>
+            </section>
             <section class="recipes-cards">
                 <h3 class="small-headline mb">Recept från Tik-Tok</h3>
                 <section tikTokRecipes class="cards-flexbox">
