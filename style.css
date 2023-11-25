@@ -145,6 +145,16 @@ body {
 .mid-headline.mb {
   margin-bottom: 1rem;
 }
+@media (min-width: 1024px) {
+  .mid-headline.mb {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .mid-headline.mt {
+    margin-top: 2rem;
+  }
+}
 .mid-headline.ml {
   margin-left: 1rem;
 }
@@ -251,6 +261,24 @@ body {
 
 .recipes-cards {
   margin-bottom: 3rem;
+}
+.recipes-cards .visa-alla-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+@media (min-width: 1024px) {
+  .recipes-cards .visa-alla-box {
+    align-items: center;
+  }
+}
+.recipes-cards .visa-alla-box .visa-alla {
+  color: #111113;
+  text-decoration: none;
+  border: none;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+  font-weight: 500;
 }
 @media (min-width: 580px) {
   .recipes-cards .cards-flexbox {
@@ -743,6 +771,29 @@ body {
   color: #111113;
 }
 
+#categorys-visa-alla .chip-visa-alla + label {
+  display: inline-block;
+  color: #111113;
+  font-size: 1rem;
+  font-weight: 500;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#categorys-visa-alla .chip-visa-alla[type=checkbox] {
+  display: none;
+}
+#categorys-visa-alla .chip-visa-alla[type=checkbox]:hover + .chip-label {
+  background-color: #fafafa;
+  color: #111113;
+}
+#categorys-visa-alla .chip-visa-alla[type=checkbox]:checked + .chip-label {
+  background-color: #FF85FF;
+  color: #111113;
+}
+
 .img-pa {
   position: absolute;
   z-index: 10;
@@ -787,7 +838,7 @@ body {
 }
 .recept figure {
   position: relative;
-  margin-bottom: 13rem;
+  margin-bottom: 8rem;
   max-width: 1200px;
   height: 100%;
   flex: 0 0 100%;

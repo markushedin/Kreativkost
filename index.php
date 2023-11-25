@@ -19,7 +19,7 @@ include("inc/header.php");
     </div>
     <main class="container" id="main-content">
         <section id="search">
-            <h2 class="mid-headline mb center">Vad är du sugen på?</h2>
+            <h2 class="mid-headline mb mt center">Vad är du sugen på?</h2>
             <form id="search-bar" role='search' >
                 <label for='header-search'>
                   <span class='visually-hidden'>Search</span>
@@ -52,27 +52,78 @@ include("inc/header.php");
                 <div class="popular-cards" data-user-cards></div>
             </section>
             <section class="recipes-cards">
-                <h3 class="small-headline mb">Asiatiskt</h3>
+                <div class="visa-alla-box">
+                    <h3 class="small-headline mb">Asiatiskt</h3>
+                    <!-- <button  class="visa-alla">
+                        <p>Visa alla →</p>
+                    </button>-->
+                    <form id="categorys-visa-alla" action="">
+                        <input class="chip-visa-alla" type="checkbox" id="categorySeven">
+                        <label class="chip-label" for="categorySeven">Visa alla →</label>
+                
+                    </form>
+                     <!-- <h3 class="small-headline mb">Filtrerade recept</h3> -->
+                    
+                </div>
+                
                 
                 <div asiatisktRecipes class="cards-flexbox"></div>
             </section>
             <section class="recipes-cards">
+            <div class="visa-alla-box">
                 <h3 class="small-headline mb">Recept från Tik-Tok</h3>
+                    <!-- <button  class="visa-alla">
+                        <p>Visa alla →</p>
+                    </button>-->
+                    <form id="categorys-visa-alla" action="">
+                        <input class="chip-visa-alla" type="checkbox" id="categoryEight">
+                        <label class="chip-label" for="categoryEight">Visa alla →</label>
+                
+                    </form>
+                </div>
+                
                 <section tikTokRecipes class="cards-flexbox">
                 </section>
             </section>
             <section class="recipes-cards">
+            <div class="visa-alla-box">
                 <h3 class="small-headline mb">Soppor</h3>
+                    <!-- <button  class="visa-alla">
+                        <p>Visa alla →</p>
+                    </button>-->
+                    <form id="categorys-visa-alla" action="">
+                        <input class="chip-visa-alla" type="checkbox" id="categoryThree">
+                        <label class="chip-label" for="categoryThree">Visa alla →</label>
+                
+                    </form>
+            </div>
+                
                 <section soupRecipes class="cards-flexbox">
                 </section>
             </section>
             <section class="recipes-cards">
-                <h3 class="small-headline mb">Vegetariskt</h3>
+            <div class="visa-alla-box">
+            <h3 class="small-headline mb">Vegetariskt</h3>
+                    <form id="categorys-visa-alla" action="">
+                        <input class="chip-visa-alla" type="checkbox" id="categoryTwo">
+                        <label class="chip-label" for="categoryTwo">Visa alla →</label>
+                
+                    </form>
+            </div>
+            
                 <article vegRecipes class="cards-flexbox">
                 </article>
             </section>
             <section class="recipes-cards">
-                <h3 class="small-headline mb">Pasta</h3>
+            <div class="visa-alla-box">
+            <h3 class="small-headline mb">Pasta</h3>
+                    <form id="categorys-visa-alla" action="">
+                        <input class="chip-visa-alla" type="checkbox" id="categorySix">
+                        <label class="chip-label" for="categorySix">Visa alla →</label>
+                
+                    </form>
+            </div>
+          
                 <article pastaRecipes class="cards-flexbox">
                 </article>
             </section>
@@ -91,7 +142,7 @@ include("inc/header.php");
                         <div class="card-text">
                             <p data-cat class="visually-hidden"></p>
                             <h4 data-header class="card-headline mb"></h4>
-                            <button class="btn-text">Gå till receptet →</button>
+                       
                         </div>
                         <!-- <div class="gradient"></div> -->
                     </a>

@@ -20,7 +20,7 @@ include("inc/header.php");
     </div>
     <main class="container" id="main-content">
         <section id="search">
-            <h2 class="mid-headline mb center">Vad är du sugen på?</h2>
+            <h2 class="mid-headline mb mt center">Vad är du sugen på?</h2>
            
             <form class="m1b" id="categorys" action="">
                 <input class="chip" type="checkbox" id="categorySeven">

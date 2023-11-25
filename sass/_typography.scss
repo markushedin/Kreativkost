@@ -52,9 +52,19 @@
     @media (min-width: $desktop-bp){
         font-size: $h2d;
         line-height: 125%;
+       
     }
     &.mb {
         margin-bottom: $x-small-padding;
+        @media (min-width: $desktop-bp){
+            margin-bottom: $small-padding;
+        }
+    }
+    &.mt{
+        
+        @media (min-width: $desktop-bp){
+            margin-top: $small-padding;
+        }
     }
     &.ml {
         margin-left: $x-small-padding;
