@@ -14,6 +14,10 @@ include("inc/header.php");
             <img src="img/hero-illustration.png" class="hero-img" alt="">
             <article class="content">
                 <h1 class="headline mb">Du behöver inte vara rik för att äta lyxigt.</h1>
+               <!-- <button class="btn">
+                    <a href="#main-content" class="btn-text">RECEPT</a>
+                </button> -->
+                
             </article>
         </figure>
     </div>

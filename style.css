@@ -127,7 +127,7 @@ body {
 }
 @media (min-width: 1024px) {
   .headline.mb {
-    margin-bottom: 11rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -234,20 +234,22 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: #FF85FF;
+  background-color: #111113;
   text-decoration: none;
   color: #fafafa;
-  font-weight: 500;
-  padding: 0.7rem 2rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  border: 2px solid #111113;
+  border-radius: 10px;
   border-radius: 50px;
-  border: none;
   transition: 0.2s;
   white-space: nowrap;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
 }
 .btn:hover {
   background-color: #FF85FF;
+  color: #111113;
 }
 
 .btn-text {
@@ -255,8 +257,9 @@ body {
   font-family: "Satoshi", sans-serif;
   background-color: transparent;
   border: none;
-  font-weight: 700;
-  color: #FF85FF;
+  font-weight: 900;
+  color: #fafafa;
+  text-decoration: none;
 }
 
 .recipes-cards {

@@ -2,19 +2,21 @@
 
 .btn{
     display: inline-block;
-    background-color: $cta;
+    background-color: $neutrals-dark;
     text-decoration: none;
     color: $neutrals-light;
-    font-weight: 500;
-    padding: 0.7rem $small-padding;
+    font-weight: 600;
+    padding: $x-small-padding $medium-padding;
+    @include border (border);
     border-radius: $btn-radius;
-    border: none;
+   
     transition: 0.2s;
     white-space: nowrap;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+    font-family: $primary-font;
+    font-size: 1rem;
     &:hover {
         background-color: $cta; //change plox
+        color: $neutrals-dark;
     }
 }
 .btn-text {
@@ -22,6 +24,7 @@
     font-family: $primary-font;
     background-color: transparent;
     border: none;
-    font-weight: 700;
-    color: $cta;
+    font-weight: 900;
+    color: $neutrals-light;
+    text-decoration: none;
 }

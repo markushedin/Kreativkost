@@ -70,6 +70,15 @@ const generateRecipeCard = (recipe) => {
     img.setAttribute('alt', recipe.altText);
     return card;
 }
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
 
 loadData = () => {
     fetch(jsonUrl)
@@ -187,7 +196,6 @@ shareBtn.addEventListener('click', () => {
     shareOptions.classList.toggle('active');
  
 })
-
 
 
 
