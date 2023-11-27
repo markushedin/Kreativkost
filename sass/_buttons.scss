@@ -2,14 +2,14 @@
 
 .btn{
     display: inline-block;
-    background-color: $neutrals-dark;
+    background-color: $cta;
     text-decoration: none;
-    color: $neutrals-light;
+    color: $neutrals-dark;
     font-weight: 600;
-    padding: $x-small-padding $medium-padding;
+    padding: 12px $medium-padding;
     @include border (border);
     border-radius: $btn-radius;
-   
+   cursor: pointer;
     transition: 0.2s;
     white-space: nowrap;
     font-family: $primary-font;
@@ -25,6 +25,6 @@
     background-color: transparent;
     border: none;
     font-weight: 900;
-    color: $neutrals-light;
+    color: $neutrals-dark;
     text-decoration: none;
 }

@@ -70,11 +70,16 @@ const generateRecipeCard = (recipe) => {
     img.setAttribute('alt', recipe.altText);
     return card;
 }
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('.btn').addEventListener('click', function (e) {
         e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
+        // Get the href attribute from the anchor inside the button
+        const targetId = this.querySelector('.btn-text').getAttribute('href');
+
+        document.querySelector(targetId).scrollIntoView({
             behavior: 'smooth'
         });
     });

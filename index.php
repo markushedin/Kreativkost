@@ -17,6 +17,9 @@ include("inc/header.php");
                <!-- <button class="btn">
                     <a href="#main-content" class="btn-text">RECEPT</a>
                 </button> -->
+                 <button class="btn">
+                    <a href="#main-content" class="btn-text">RECEPT</a>
+                </button> 
                 
             </article>
         </figure>
@@ -64,7 +67,6 @@ include("inc/header.php");
                     <form id="categorys-visa-alla" action="">
                         <input class="chip-visa-alla" type="checkbox" id="categorySeven">
                         <label class="chip-label" for="categorySeven">Visa alla →</label>
-                
                     </form>
                      <!-- <h3 class="small-headline mb">Filtrerade recept</h3> -->
                     

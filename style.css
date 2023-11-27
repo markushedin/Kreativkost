@@ -87,7 +87,7 @@ body {
   color: #111113;
   line-height: 120%;
   max-width: 350px;
-  text-align: center;
+  text-align: left;
 }
 @media (min-width: 580px) {
   .headline {
@@ -234,14 +234,15 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: #111113;
+  background-color: #FF85FF;
   text-decoration: none;
-  color: #fafafa;
+  color: #111113;
   font-weight: 600;
-  padding: 1rem 3rem;
+  padding: 12px 3rem;
   border: 2px solid #111113;
   border-radius: 10px;
   border-radius: 50px;
+  cursor: pointer;
   transition: 0.2s;
   white-space: nowrap;
   font-family: "Satoshi", sans-serif;
@@ -258,7 +259,7 @@ body {
   background-color: transparent;
   border: none;
   font-weight: 900;
-  color: #fafafa;
+  color: #111113;
   text-decoration: none;
 }
 
@@ -283,12 +284,21 @@ body {
   cursor: pointer;
   font-weight: 500;
 }
+.recipes-cards .cards-flexbox {
+  justify-content: space-between;
+}
 @media (min-width: 580px) {
   .recipes-cards .cards-flexbox {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 1.2rem;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1024px) {
+  .recipes-cards .cards-flexbox {
+    justify-content: space-between;
   }
 }
 .recipes-cards .card {
@@ -309,6 +319,7 @@ body {
 @media (min-width: 1024px) {
   .recipes-cards .card {
     max-width: 32%;
+    flex: calc(33% - 1.2rem);
   }
 }
 .recipes-cards .card a {
@@ -476,9 +487,6 @@ body {
 .main-header .nav-container .main-menu {
   display: flex;
   list-style: none;
-}
-.main-header .nav-container .main-menu .main-menu-item {
-  margin: 0 1rem;
 }
 .main-header .nav-container .main-menu .main-menu-item .link {
   font-size: 1.2rem;
