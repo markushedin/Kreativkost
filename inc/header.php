@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezWw5r5l9gBqIbzrZf5G5Mw5c2uB1LJKcHJ3An8rJ6t1V7pNwJ5D5g/BGJGIIJDC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <script src="../cookie-consent/cookie-consent.js"></script>
     

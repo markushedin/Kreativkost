@@ -211,9 +211,9 @@ body {
 .paragraph-text {
   font-size: 1rem;
   line-height: 145%;
-  margin-bottom: 1rem;
   font-family: "Lato", sans-serif;
   max-width: 590px;
+  margin-bottom: 0.5rem;
 }
 @media (min-width: 1024px) {
   .paragraph-text {
@@ -234,7 +234,7 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: #FF85FF;
+  background-color: #ffb6ff;
   text-decoration: none;
   color: #111113;
   font-weight: 600;
@@ -249,7 +249,7 @@ body {
   font-size: 1rem;
 }
 .btn:hover {
-  background-color: #FF85FF;
+  background-color: #ffb6ff;
   color: #111113;
 }
 
@@ -261,6 +261,92 @@ body {
   font-weight: 900;
   color: #111113;
   text-decoration: none;
+}
+
+.btn_outlined {
+  display: inline-block;
+  background-color: transparent;
+  text-decoration: none;
+  color: #fafafa;
+  font-weight: 600;
+  padding: 12px 2rem;
+  border: 2px solid #111113;
+  border-radius: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.2s;
+  white-space: nowrap;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+}
+.btn_outlined.mb {
+  margin-bottom: 2rem;
+}
+.btn_outlined:hover {
+  background-color: #111113;
+}
+.btn_outlined:focus {
+  border: 2px solid #ffb6ff;
+}
+.btn_outlined .btn-text-outlined {
+  font-size: 1rem;
+  font-family: "Satoshi", sans-serif;
+  background-color: transparent;
+  border: none;
+  font-weight: 900;
+  color: #111113;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.btn_outlined .btn-text-outlined:hover {
+  color: #fafafa;
+}
+.btn_outlined:hover .btn-text-outlined {
+  color: #fafafa;
+}
+
+.btn_defualt {
+  display: inline-block;
+  background-color: #111113;
+  text-decoration: none;
+  color: #fafafa;
+  font-weight: 600;
+  padding: 12px 2rem;
+  border: 2px solid #111113;
+  border-radius: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.2s;
+  white-space: nowrap;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+}
+.btn_defualt.mb {
+  margin-bottom: 2rem;
+}
+
+.btn-text-defualt {
+  font-size: 1rem;
+  font-family: "Satoshi", sans-serif;
+  background-color: transparent;
+  border: none;
+  font-weight: 900;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.btn-text-outlined {
+  font-size: 1rem;
+  font-family: "Satoshi", sans-serif;
+  background-color: transparent;
+  border: none;
+  font-weight: 900;
+  color: #111113;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.btn-text-outlined:hover {
+  color: #fafafa;
 }
 
 .recipes-cards {
@@ -774,11 +860,11 @@ body {
   display: none;
 }
 #categorys .chip[type=checkbox]:hover + label {
-  background-color: #FF85FF;
+  background-color: #ffb6ff;
   color: #111113;
 }
 #categorys .chip[type=checkbox]:checked + label {
-  background-color: #FF85FF;
+  background-color: #ffb6ff;
   color: #111113;
 }
 
@@ -801,7 +887,7 @@ body {
   color: #111113;
 }
 #categorys-visa-alla .chip-visa-alla[type=checkbox]:checked + .chip-label {
-  background-color: #FF85FF;
+  background-color: #ffb6ff;
   color: #111113;
 }
 

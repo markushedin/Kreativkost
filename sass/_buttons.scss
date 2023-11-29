@@ -28,3 +28,91 @@
     color: $neutrals-dark;
     text-decoration: none;
 }
+
+.btn_outlined {
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: none;
+    color: $neutrals-light;
+    font-weight: 600;
+    padding: 12px 2rem;
+    @include border (border);
+    border-radius: $btn-radius; 
+   cursor: pointer;
+    transition: 0.2s;       
+    white-space: nowrap;
+    font-family: $primary-font;
+    font-size: 1rem;             
+    &.mb {
+        margin-bottom: $small-padding;
+    }
+    &:hover {
+    background-color: $neutrals-dark;
+    }
+    &:focus {
+        border: 2px solid $cta;
+        }
+    .btn-text-outlined {
+        // ... (your existing styles)
+        font-size: 1rem;
+        font-family: $primary-font;
+        background-color: transparent;
+        border: none;
+        font-weight: 900;
+        color: $neutrals-dark;
+        text-decoration: none;
+        transition: 0.2s; 
+        &:hover {
+            color: $neutrals-light;
+        }
+    }
+
+    &:hover {
+        .btn-text-outlined {
+            color: $neutrals-light; // Add this line to change text color on button hover
+        }
+    }
+}
+
+.btn_defualt{
+    display: inline-block;
+    background-color: $neutrals-dark;
+    text-decoration: none;
+    color: $neutrals-light;
+    font-weight: 600;
+    padding: 12px 2rem;
+    @include border (border);
+    border-radius: $btn-radius;
+   cursor: pointer;
+    transition: 0.2s;
+    white-space: nowrap;
+    font-family: $primary-font;
+    font-size: 1rem;
+    &.mb {
+        margin-bottom: $small-padding;
+    }
+    
+}
+
+.btn-text-defualt {
+    font-size: 1rem;
+    font-family: $primary-font;
+    background-color: transparent;
+    border: none;
+    font-weight: 900;
+    color: $neutrals-light;
+    text-decoration: none;
+}
+.btn-text-outlined {
+    font-size: 1rem;
+    font-family: $primary-font;
+    background-color: transparent;
+    border: none;
+    font-weight: 900;
+    color: $neutrals-dark;
+    text-decoration: none;
+    transition: 0.2s; 
+    &:hover {
+        color: $neutrals-light;
+    }
+}

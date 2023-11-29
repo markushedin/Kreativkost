@@ -9,6 +9,12 @@
                 </figure>
                 <h5 class="bad-script jennie">Jennie</h5>
                 <p class="paragraph-text">Jag älskar mat, men äter gärna samma maträtt tills jag tröttnar på den!</p>
+                <button class="btn_outlined mb">
+                    <a href="padthai.php" class="btn-text-outlined">Jennies älsklingsrätt</a>
+                    <!-- <span class="material-symbols-outlined"> 
+                    favorite
+                    </span>-->
+                </button> 
             </article>
             <article class="about-us-card">
                 <figure>
@@ -16,13 +22,21 @@
                 </figure>
                 <h5 class="bad-script markus">Markus</h5>
                 <p class="paragraph-text">Som person tycker jag om att måla tavlor med akryl, lukta på doftljus, skriva dikter och såklart äta god mat!</p>
+                <button class="btn_outlined mb">
+                    <a href="carbonara.php" class="btn-text-outlined">Markus favorit pasta</a>
+                </button> 
             </article>
             <article class="about-us-card">
                 <figure>
                     <img src="img/aim.jpg" class="about-us-img" alt="">
                 </figure>
                 <h5 class="bad-script aim">Napatsara</h5>
-                <p class="paragraph-text mb">Jag gillar att titta på film, äta mat men inte laga.</p>
+                <p class="paragraph-text">Jag gillar att titta på film, äta mat men inte laga.
+                
+                </p>
+                <button class="btn_outlined mb">
+                    <a href="fransk-soppa.php" class="btn-text-outlined">Min favorit soppa</a>
+                </button> 
             </article>
         </section>
     </main>

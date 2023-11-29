@@ -113,9 +113,9 @@
 .paragraph-text { //Default paragraph text
     font-size: $p-text;
     line-height: 145%;
-    margin-bottom: $x-small-padding;
     font-family: 'Lato', sans-serif;
     max-width: 590px;
+    margin-bottom: $nano-small-padding;
     @media (min-width: $desktop-bp) {
         font-size: $p-text-d;
         
