@@ -71,6 +71,20 @@ const generateRecipeCard = (recipe) => {
     return card;
 }
 
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('.btn').addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Get the href attribute from the anchor inside the button
+        const targetId = this.querySelector('.btn-text').getAttribute('href');
+
+        document.querySelector(targetId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
 loadData = () => {
     fetch(jsonUrl)
     .then(response => response.json())
@@ -187,7 +201,6 @@ shareBtn.addEventListener('click', () => {
     shareOptions.classList.toggle('active');
  
 })
-
 
 
 

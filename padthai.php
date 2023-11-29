@@ -3,7 +3,7 @@
     <main class="container no-padding">
     <?php include("inc/share.php");?>
         <img src="../img/kavel.png" class="img-pa" alt="Dekorativ illustration i form av en kökskavel">
-        <div class="recept" id="13">
+        <div class="recept" id="3">
             <!--Content will be here :)-->
         </div>
         <figure class="illustration-container">

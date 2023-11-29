@@ -38,3 +38,38 @@
     
  
 }
+#categorys-visa-alla{
+    
+    .chip-visa-alla{
+        + label{
+            display: inline-block;
+            color: $neutrals-dark;
+            font-size: 1rem;
+            font-weight: 500;
+            user-select: none;
+            cursor: pointer;
+            transition: 0.3s ease-in-out; 
+        }
+       
+        
+        &[type="checkbox"]{
+            display: none;
+            
+            &:hover {
+                + .chip-label {
+                    background-color: $neutrals-light;
+                    color: $neutrals-dark;
+                    
+                }
+             }
+            &:checked {
+                + .chip-label {
+                    background-color: $cta;
+                    color: $neutrals-dark;
+                }
+             }
+        }
+    }
+    
+ 
+}
