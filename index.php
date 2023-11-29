@@ -38,20 +38,24 @@ include("inc/header.php");
                 </button>
             </form>
             <form class="m1b" id="categorys" action="">
-                <input class="chip" type="checkbox" id="categorySeven">
-                <label for="categorySeven">Asiatiskt</label>
+            <input class="chip" type="checkbox" id="categorySeven">
+                <label for="categorySeven">Asiatiskt</label> 
                 <input class="chip" type="checkbox" id="categoryOne">
                 <label for="categoryOne">Kyckling</label>
-                <input class="chip" type="checkbox" id="categoryTwo">
-                <label for="categoryTwo">Vegetariskt</label>
-                <input class="chip" type="checkbox" id="categoryThree">
-                <label for="categoryThree">Soppa</label>
-                <input class="chip" type="checkbox" id="categoryFour">
-                <label for="categoryFour">Pizza</label>
                 <input class="chip" type="checkbox" id="categorySix">
                 <label for="categorySix">Pasta</label>
-                <input class="chip" type="checkbox" id="categoryEight">
+                <input class="chip" type="checkbox" id="categoryFour">
+                <label for="categoryFour">Pizza</label>
+                <input class="chip" type="checkbox" id="categoryThree">
+                <label for="categoryThree">Soppa</label>
+            <input class="chip" type="checkbox" id="categoryEight">
                 <label for="categoryEight">TikTok</label>
+                <input class="chip" type="checkbox" id="categoryTwo">
+                <label for="categoryTwo">Vegetariskt</label>
+                
+                
+                
+                
             </form>
         </section>
         <section class="user-recipes">
@@ -148,7 +152,7 @@ include("inc/header.php");
                         <div class="card-text">
                             <p data-cat class="visually-hidden"></p>
                             <h4 data-header class="card-headline mb"></h4>
-                            <button class="btn-text">Gå till receptet →</button>
+                            
                         </div>
                         <!-- <div class="gradient"></div> -->
                     </a>
