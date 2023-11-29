@@ -69,8 +69,8 @@ include("inc/header.php");
                         <p>Visa alla →</p>
                     </button>-->
                     <form id="categorys-visa-alla" action="">
-                        <input class="chip-visa-alla" type="checkbox" id="categorySeven">
-                        <label class="chip-label" for="categorySeven">Visa alla →</label>
+                    <input class="chip-visa-alla" type="checkbox" id="categorySeven">
+                    <label class="chip-label" for="categorySeven">Visa alla →</label>
                     </form>
                      <!-- <h3 class="small-headline mb">Filtrerade recept</h3> -->
                     

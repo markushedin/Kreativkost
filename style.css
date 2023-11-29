@@ -868,7 +868,10 @@ body {
   color: #111113;
 }
 
-#categorys-visa-alla .chip-visa-alla + label {
+#categorys-visa-alla .chip-visa-alla {
+  display: none;
+}
+#categorys-visa-alla .chip-visa-alla + .chip-label {
   display: inline-block;
   color: #111113;
   font-size: 1rem;
@@ -879,15 +882,12 @@ body {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-#categorys-visa-alla .chip-visa-alla[type=checkbox] {
-  display: none;
-}
-#categorys-visa-alla .chip-visa-alla[type=checkbox]:hover + .chip-label {
-  background-color: #fafafa;
+#categorys-visa-alla .chip-visa-alla:checked + .chip-label {
+  background-color: #ffb6ff;
   color: #111113;
 }
-#categorys-visa-alla .chip-visa-alla[type=checkbox]:checked + .chip-label {
-  background-color: #ffb6ff;
+#categorys-visa-alla .chip-visa-alla:hover + .chip-label {
+  background-color: #fafafa;
   color: #111113;
 }
 
