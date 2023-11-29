@@ -234,11 +234,7 @@ body {
 
 .btn {
   display: inline-block;
-<<<<<<< Updated upstream
   background-color: #ffb6ff;
-=======
-  background-color: #ffceff;
->>>>>>> Stashed changes
   text-decoration: none;
   color: #111113;
   font-weight: 600;
@@ -253,11 +249,7 @@ body {
   font-size: 1rem;
 }
 .btn:hover {
-<<<<<<< Updated upstream
-  background-color: #ffb6ff;
-=======
-  background-color: #ffceff;
->>>>>>> Stashed changes
+  background-color: #fe93fe;
   color: #111113;
 }
 
@@ -868,19 +860,11 @@ body {
   display: none;
 }
 #categorys .chip[type=checkbox]:hover + label {
-<<<<<<< Updated upstream
   background-color: #ffb6ff;
   color: #111113;
 }
 #categorys .chip[type=checkbox]:checked + label {
   background-color: #ffb6ff;
-=======
-  background-color: #ffceff;
-  color: #111113;
-}
-#categorys .chip[type=checkbox]:checked + label {
-  background-color: #ffceff;
->>>>>>> Stashed changes
   color: #111113;
 }
 
@@ -903,11 +887,7 @@ body {
   color: #111113;
 }
 #categorys-visa-alla .chip-visa-alla[type=checkbox]:checked + .chip-label {
-<<<<<<< Updated upstream
   background-color: #ffb6ff;
-=======
-  background-color: #ffceff;
->>>>>>> Stashed changes
   color: #111113;
 }
 
@@ -1173,13 +1153,13 @@ body {
   font-family: "Satoshi";
   border: 2px solid #111113;
   border-radius: 5px;
-  background-color: #A654A6;
+  background-color: #ffb6ff;
   color: #fafafa;
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
 }
 #ok-button:hover {
-  background-color: rgb(195, 96, 195);
+  background-color: #fe93fe;
   color: #fafafa;
 }
 

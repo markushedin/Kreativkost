@@ -66,13 +66,13 @@
   font-family: 'Satoshi';
   border: 2px solid $neutrals-dark;
   border-radius: 5px;
-  background-color: #A654A6;
+  background-color: $cta;
   color: $neutrals-light;
   transition: transform 0.3s ease-in-out; 
   cursor: pointer;
     
     &:hover{
-        background-color:rgb(195, 96, 195);
+        background-color:$cta_hover;
         color: $neutrals-light
         ;
     }
