@@ -91,7 +91,7 @@ include("inc/header.php");
                         <div class="card-text">
                             <p data-cat class="visually-hidden"></p>
                             <h4 data-header class="card-headline mb"></h4>
-                            <button class="btn-text">Gå till receptet →</button>
+                            
                         </div>
                         <!-- <div class="gradient"></div> -->
                     </a>
