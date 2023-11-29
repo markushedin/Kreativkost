@@ -17,9 +17,9 @@ include("inc/header.php");
                <!-- <button class="btn">
                     <a href="#main-content" class="btn-text">RECEPT</a>
                 </button> -->
-                 <button class="btn">
+                <button class="btn">
                     <a href="#main-content" class="btn-text">RECEPT</a>
-                </button> 
+                </button>
                 
             </article>
         </figure>
