@@ -471,14 +471,18 @@ body {
   .cards-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    row-gap: 3rem;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 }
 .cards-container .about-us-card {
   position: relative;
   max-width: 401px;
+}
+@media (min-width: 580px) {
+  .cards-container .about-us-card.markus {
+    margin-top: 8rem;
+  }
 }
 .cards-container .about-us-card figure {
   max-width: 243px;
@@ -860,8 +864,8 @@ body {
   display: none;
 }
 #categorys .chip[type=checkbox]:hover + label {
-  background-color: #ffb6ff;
-  color: #111113;
+  background-color: #111113;
+  color: #fafafa;
 }
 #categorys .chip[type=checkbox]:checked + label {
   background-color: #ffb6ff;

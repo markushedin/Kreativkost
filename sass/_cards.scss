@@ -120,12 +120,27 @@
 //About us cards
 .cards-container {
     @media (min-width: $desktop-bp){
-        @include flexbox-4(wrap, space-around, center);
-        row-gap: $medium-padding;
+        @include flexbox-4(wrap, space-between, flex-start);
+       
     }
     .about-us-card {
         position: relative;
         max-width: 401px;
+        &.jennie{
+            @media (min-width: $tablet-bp){
+               
+            }
+        }
+        &.markus{
+            @media (min-width: $tablet-bp){
+               margin-top: 8rem;
+            }
+        }
+        &.aim{
+            @media (min-width: $tablet-bp){
+               
+            }
+        }
         figure {
             max-width: 243px;
             position: relative;

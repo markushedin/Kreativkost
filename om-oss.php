@@ -3,7 +3,7 @@
         <h1 class="headline about-us-h1">Vad, vilka & vart är Kreativ Kost?</h1>
         <p class="paragraph-text mb">Kreativ Kost skapades av Napatsara, Markus och Jennie i Sunne, Värmland och målet var att vi ville ge inspiration till våra medmänniskor att det går att laga billig mat som faktiskt är god!</p>
         <section class="cards-container">
-            <article class="about-us-card">
+            <article class="about-us-card jennie">
                 <figure>
                     <img src="img/jennie.jpg" class="about-us-img" alt="">
                 </figure>
@@ -16,17 +16,17 @@
                     </span>-->
                 </button> 
             </article>
-            <article class="about-us-card">
+            <article class="about-us-card markus">
                 <figure>
                     <img src="img/markus.jpg" class="about-us-img" alt="">
                 </figure>
                 <h5 class="bad-script markus">Markus</h5>
-                <p class="paragraph-text">Som person tycker jag om att måla tavlor med akryl, lukta på doftljus, skriva dikter och såklart äta god mat!</p>
+                <p class="paragraph-text">Mat är livet och jag utmanar mig med att laga nya maträtter så ofta jag orkar!</p>
                 <button class="btn_outlined mb">
                     <a href="carbonara.php" class="btn-text-outlined">Markus favorit pasta</a>
                 </button> 
             </article>
-            <article class="about-us-card">
+            <article class="about-us-card aim">
                 <figure>
                     <img src="img/aim.jpg" class="about-us-img" alt="">
                 </figure>
