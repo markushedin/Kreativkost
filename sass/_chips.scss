@@ -1,4 +1,4 @@
-@import 'variables';
+
 
 #categorys{
     margin-top: $x-small-padding;
@@ -29,8 +29,8 @@
              }
             &:checked {
                 + label {
-                    background-color: $cta;
-                    color: $neutrals-dark;
+                    background-color: $neutrals-dark;
+                    color: $neutrals-light;
                 }
              }
         }

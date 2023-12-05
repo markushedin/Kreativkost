@@ -64,7 +64,7 @@ const generateRecipeCard = (recipe) => {
     header.textContent = recipe.name;
     cat.textContent = recipe.category;
     img.setAttribute('src', recipe.imageURL);
-    console.log(recipe.img400);
+    // console.log(recipe.img400);
     img.setAttribute('srcset', `${recipe.img400} 400w, ${recipe.img800} 800w,  ${recipe.imageURL} 1200w`);
     img.setAttribute('sizes', '(min-width: 400px) 400px');
     img.setAttribute('alt', recipe.altText);
@@ -73,7 +73,9 @@ const generateRecipeCard = (recipe) => {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('.btn').addEventListener('click', function (e) {
+    const receptBtn = document.querySelector('.btn');
+   if(receptBtn){
+    receptBtn.addEventListener('click', function (e) {
         e.preventDefault();
 
         // Get the href attribute from the anchor inside the button
@@ -83,6 +85,8 @@ document.addEventListener('DOMContentLoaded', function () {
             behavior: 'smooth'
         });
     });
+   }
+   
 });
 
 loadData = () => {
@@ -197,10 +201,10 @@ const filterRecipes = () => {
     });
 }
 
-shareBtn.addEventListener('click', () => {
-    shareOptions.classList.toggle('active');
+// shareBtn.addEventListener('click', () => {
+//     shareOptions.classList.toggle('active');
  
-})
+// })
 
 
 
