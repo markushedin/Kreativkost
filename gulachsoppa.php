@@ -1,4 +1,5 @@
-<?php include("inc/header.php");?>
+<?php $pagetitle = "Gulaschsoppa med köttfärs";
+include("inc/header.php");?>
 
     <main class="container no-padding">
     <?php include("inc/share.php");?>

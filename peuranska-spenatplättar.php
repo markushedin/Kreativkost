@@ -1,4 +1,5 @@
-<?php include("inc/header.php");?>
+<?php $pagetitle = "Peuranska spenatplättar";
+include("inc/header.php");?>
 
 
     <main class="container no-padding">

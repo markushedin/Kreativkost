@@ -12,11 +12,15 @@
                 </div>
                 <div class="social-media-container mb">
                     <p class="footer-text smb">Följ oss</p>
+                   
                     <a href="https://www.instagram.com/kreativ_kost">
+                    <span class="insta">
                         <i class="fa fa-instagram">
                             
                         </i>
+                    </span>
                     </a>
+                   
                 </div>
             </section>
             <div class="text_bottom">
