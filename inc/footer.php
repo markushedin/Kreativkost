@@ -3,7 +3,7 @@
             <section class="footer-content">
             <a class="logo" href="/index.php">
                 <figure>
-                    <img class="footer-logotype" src="/img/kreativ-kost-logo.svg" alt="Kreativ Kost logotyp, en skål med en sked över samt namnet till höger">
+                    <img class="footer-logotype" src="/img/kreativ-kost-logo.png" alt="Kreativ Kost logotyp, en skål med en sked över samt namnet till höger">
                 </figure>
             </a>
                 <div class="p-box">
@@ -13,12 +13,12 @@
                 <div class="social-media-container mb">
                     <p class="footer-text smb">Följ oss</p>
                    
-                    <a href="https://www.instagram.com/kreativ_kost">
-                    <span class="insta">
+                    <a aria-label="Instagram button" href ="https://www.instagram.com/kreativ_kost">
+                  
                         <i class="fa fa-instagram">
                             
                         </i>
-                    </span>
+                   
                     </a>
                    
                 </div>
