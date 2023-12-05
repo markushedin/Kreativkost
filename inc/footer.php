@@ -3,7 +3,7 @@
             <section class="footer-content">
             <a class="logo" href="/index.php">
                 <figure>
-                    <img class="footer-logotype" src="/img/kreativ-kost-logo.png" alt="Kreativ Kost logotyp, en skål med en sked över samt namnet till höger">
+                    <img class="footer-logotype" src="/img/kreativ-kost-logo.svg" alt="Kreativ Kost logotyp, en skål med en sked över samt namnet till höger">
                 </figure>
             </a>
                 <div class="p-box">
