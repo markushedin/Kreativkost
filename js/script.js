@@ -37,6 +37,28 @@ const filters = {
     search: ""
 }
 
+fetch('https://kreativkost.se/index.php', {
+    method: 'GET',
+    headers: {
+      'Cache-Control': 'no-cache',
+      // Other headers if needed
+    },
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.text();
+    })
+    .then(data => {
+      // Your response handling logic here
+      console.log(data);
+    })
+    .catch(error => {
+      console.error('There was a problem with the fetch operation:', error);
+    });
+
+
 function shareOnLink() {
     if (navigator.share) {
         navigator.share({

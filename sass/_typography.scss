@@ -11,6 +11,7 @@
     line-height: 120%;
     max-width: 350px;
     text-align: left;
+    font-display: swap;
     @media (min-width: $tablet-bp){
         text-align: left;
     }
@@ -49,6 +50,7 @@
     font-size: $h2m;
     font-weight: 400;
     line-height: 145%;
+    font-display: swap;
     @media (min-width: $desktop-bp){
         font-size: $h2d;
         line-height: 125%;
@@ -80,7 +82,7 @@
     font-size: $h3m;
     font-weight: 400;
     line-height: 145%;
-    
+    font-display: swap;
     @media (min-width: $desktop-bp){
         font-size: $h3d;
         font-weight: 400;
@@ -93,6 +95,7 @@
 .card-headline {
     font-size: $h4m;
     line-height: 145%;
+    font-display: swap;
     @media (min-width: $desktop-bp) {
         font-size: $h4d;
         line-height: 145%;
@@ -106,6 +109,7 @@
     font-family: $script-font;
     font-size: $script-size;
     font-weight: 300;
+    font-display: swap;
     @media (min-width: $desktop-bp){
         font-size: $script-size-desktop;
     }
@@ -116,6 +120,7 @@
     font-family: 'Lato', sans-serif;
     max-width: 590px;
     margin-bottom: $nano-small-padding;
+    font-display: swap;
     @media (min-width: $desktop-bp) {
         font-size: $p-text-d;
         
