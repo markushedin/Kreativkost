@@ -370,21 +370,12 @@ body {
   cursor: pointer;
   font-weight: 500;
 }
-.recipes-cards .cards-flexbox {
-  justify-content: space-between;
-}
 @media (min-width: 580px) {
   .recipes-cards .cards-flexbox {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 1.2rem;
-    justify-content: space-between;
-  }
-}
-@media (min-width: 1024px) {
-  .recipes-cards .cards-flexbox {
-    justify-content: space-between;
   }
 }
 .recipes-cards .card {
@@ -398,14 +389,13 @@ body {
 }
 @media (min-width: 580px) {
   .recipes-cards .card {
-    flex: 0 0 calc(50% - 1.2rem);
+    flex: 0 0 calc(50% - 0.6rem);
     margin-bottom: 0;
   }
 }
 @media (min-width: 1024px) {
   .recipes-cards .card {
-    max-width: 32%;
-    flex: calc(33% - 1.2rem);
+    flex: 0 0 calc(33.3333333333% - 0.8rem);
   }
 }
 .recipes-cards .card a {
@@ -868,8 +858,8 @@ body {
   color: #fafafa;
 }
 #categorys .chip[type=checkbox]:checked + label {
-  background-color: #ffb6ff;
-  color: #111113;
+  background-color: #111113;
+  color: #fafafa;
 }
 
 #categorys-visa-alla .chip-visa-alla {
@@ -895,41 +885,26 @@ body {
   color: #111113;
 }
 
-.img-pa {
-  position: absolute;
-  z-index: 10;
-  top: 590px;
-  width: 80px;
-  right: 0;
+.illustration-container {
+  width: 100%;
+  height: 90px;
+  margin: 0 0 2rem 0;
 }
 @media (min-width: 580px) {
-  .img-pa {
-    display: none;
+  .illustration-container {
+    height: 120px;
   }
-}
-
-.illustration-container {
-  max-width: 1200px;
-  height: 100%;
-  margin-top: 0.5rem;
-  margin-bottom: 2rem;
 }
 @media (min-width: 1024px) {
   .illustration-container {
-    margin-bottom: 3rem;
+    height: 160px;
+    margin: 3rem 0;
   }
 }
 .illustration-container .img-pa2 {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
-@media (min-width: 1024px) {
-  .illustration-container .img-pa2 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
-}
-
 .recept {
   max-width: 1200px;
   margin: auto;
@@ -1158,13 +1133,13 @@ body {
   border: 2px solid #111113;
   border-radius: 5px;
   background-color: #ffb6ff;
-  color: #fafafa;
+  color: #111113;
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
 }
 #ok-button:hover {
   background-color: #fe93fe;
-  color: #fafafa;
+  color: #111113;
 }
 
 .b {

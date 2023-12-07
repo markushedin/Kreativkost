@@ -139,8 +139,8 @@ include("inc/header.php");
             </section>
             <section class="recipes-cards hidden">
                 <!-- <h3 class="small-headline mb">Filtrerade recept</h3> -->
-                <article searchFilteredRecipes class="cards-flexbox">
-                </article>
+                <div searchFilteredRecipes class="cards-flexbox">
+                </div>
             </section>
             <template data-user-template>
                 <!-- KORTET -->

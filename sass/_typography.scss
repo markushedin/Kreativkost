@@ -1,16 +1,17 @@
-@import 'variables';
+
 //general stylings for typography
 .center {
     text-align: center;
 }
 .headline { //h1
     font-size: $h1m;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: $x-small-padding;
     color: $neutrals-dark;
     line-height: 120%;
     max-width: 350px;
     text-align: left;
+    font-display: swap;
     @media (min-width: $tablet-bp){
         text-align: left;
     }
@@ -47,8 +48,9 @@
 }
 .mid-headline { //h2
     font-size: $h2m;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 145%;
+    font-display: swap;
     @media (min-width: $desktop-bp){
         font-size: $h2d;
         line-height: 125%;
@@ -78,12 +80,12 @@
 }
 .small-headline { //h3
     font-size: $h3m;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 145%;
-    
+    font-display: swap;
     @media (min-width: $desktop-bp){
         font-size: $h3d;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 145%;
     }
     &.mb {
@@ -93,6 +95,7 @@
 .card-headline {
     font-size: $h4m;
     line-height: 145%;
+    font-display: swap;
     @media (min-width: $desktop-bp) {
         font-size: $h4d;
         line-height: 145%;
@@ -105,7 +108,8 @@
 .bad-script { //h5
     font-family: $script-font;
     font-size: $script-size;
-    font-weight: 400;
+    font-weight: 300;
+    font-display: swap;
     @media (min-width: $desktop-bp){
         font-size: $script-size-desktop;
     }
@@ -116,6 +120,7 @@
     font-family: 'Lato', sans-serif;
     max-width: 590px;
     margin-bottom: $nano-small-padding;
+    font-display: swap;
     @media (min-width: $desktop-bp) {
         font-size: $p-text-d;
         

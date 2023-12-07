@@ -1,4 +1,5 @@
-<?php include("inc/header.php");?>
+<?php $pagetitle = "Ramen lasagne";
+include("inc/header.php");?>
 
 
     <main class="container no-padding">

@@ -1,4 +1,4 @@
-@import 'variables';
+
 .recipes-cards{
     margin-bottom: $medium-padding;
     .visa-alla-box{
@@ -19,17 +19,9 @@
         
     }
     .cards-flexbox {
-        justify-content: space-between;
         @media (min-width: $tablet-bp) {
             @include flexbox-3(flex-start, wrap);
             gap: 1.2rem;
-            justify-content: space-between;
-            
-        }
-        @media (min-width: $desktop-bp) {
-            justify-content: space-between;
-            
-            
         }
     }
     .card{
@@ -42,12 +34,12 @@
         // height: 340px;
         @include border (border);
         @media (min-width: $tablet-bp) {
-            flex: 0 0 calc(100%/2 - 1.2rem);
+            flex: 0 0 calc((100% / 2) - (((2 - 1) / 2) * 1.2rem));
             margin-bottom: 0;
         }
         @media (min-width: $desktop-bp) {
-            max-width: 32%;
-            flex: calc(33% - 1.2rem);
+            // max-width: 32%;
+            flex: 0 0 calc((100% / 3) - (((3 - 1) / 3) * 1.2rem));
         }
         a{
             text-decoration: none;

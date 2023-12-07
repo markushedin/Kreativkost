@@ -37,6 +37,28 @@ const filters = {
     search: ""
 }
 
+fetch('https://kreativkost.se/index.php', {
+    method: 'GET',
+    headers: {
+      'Cache-Control': 'no-cache',
+      // Other headers if needed
+    },
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.text();
+    })
+    .then(data => {
+      // Your response handling logic here
+      console.log(data);
+    })
+    .catch(error => {
+      console.error('There was a problem with the fetch operation:', error);
+    });
+
+
 function shareOnLink() {
     if (navigator.share) {
         navigator.share({
@@ -64,7 +86,7 @@ const generateRecipeCard = (recipe) => {
     header.textContent = recipe.name;
     cat.textContent = recipe.category;
     img.setAttribute('src', recipe.imageURL);
-    console.log(recipe.img400);
+    // console.log(recipe.img400);
     img.setAttribute('srcset', `${recipe.img400} 400w, ${recipe.img800} 800w,  ${recipe.imageURL} 1200w`);
     img.setAttribute('sizes', '(min-width: 400px) 400px');
     img.setAttribute('alt', recipe.altText);
@@ -73,7 +95,9 @@ const generateRecipeCard = (recipe) => {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('.btn').addEventListener('click', function (e) {
+    const receptBtn = document.querySelector('.btn');
+   if(receptBtn){
+    receptBtn.addEventListener('click', function (e) {
         e.preventDefault();
 
         // Get the href attribute from the anchor inside the button
@@ -83,6 +107,8 @@ document.addEventListener('DOMContentLoaded', function () {
             behavior: 'smooth'
         });
     });
+   }
+   
 });
 
 loadData = () => {
@@ -197,10 +223,10 @@ const filterRecipes = () => {
     });
 }
 
-shareBtn.addEventListener('click', () => {
-    shareOptions.classList.toggle('active');
+// shareBtn.addEventListener('click', () => {
+//     shareOptions.classList.toggle('active');
  
-})
+// })
 
 
 

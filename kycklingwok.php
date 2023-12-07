@@ -1,4 +1,6 @@
-<?php include("inc/header.php");?>
+
+<?php $pagetitle = "Kycklingwok";
+include("inc/header.php");?>
 
     <main class="container no-padding">
     <?php include("inc/share.php");?>
