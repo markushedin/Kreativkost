@@ -87,9 +87,11 @@ const generateRecipeCard = (recipe) => {
     cat.textContent = recipe.category;
     img.setAttribute('src', recipe.imageURL);
     // console.log(recipe.img400);
-    img.setAttribute('srcset', `${recipe.img400} 400w, ${recipe.img800} 800w,  ${recipe.imageURL} 1200w`);
+    img.setAttribute('srcset', `${recipe.img400} 400w, ${recipe.img800} 800w`);
     img.setAttribute('sizes', '(min-width: 400px) 400px');
     img.setAttribute('alt', recipe.altText);
+    img.setAttribute("width",400);
+    img.setAttribute("height",300);
     return card;
 }
 
